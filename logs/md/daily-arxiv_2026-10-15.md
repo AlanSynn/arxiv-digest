@@ -3,18 +3,18 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.17
+## 📚 Updated on 2026.10.18
 
 <details open>
-<summary>📑 Table of Contents — 2026-10-17</summary>
+<summary>📑 Table of Contents — 2026-10-18</summary>
 
 **By category**
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (2)
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (26)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (25)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (32)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (4)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (8)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (7)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (33)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (31)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (10)
@@ -31,7 +31,7 @@
 |**2026-10-12**|**Low-Cost Deep Learning for Automated Keyframe Interpolation in Sprite Animation**|Kenneth Alonso et.al.|[@2610.16423](http://arxiv.org/abs/2610.16423)|null|
 |**2026-10-08**|**PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting**|Nicholas Ioannidis et.al.|[@2610.12642](http://arxiv.org/abs/2610.12642)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Character Motion Synthesis & Animation
 
@@ -64,7 +64,7 @@
 |**2026-10-04**|**How Does Geometry Enter Generated Motion?**|Weihan Li et.al.|[@2610.05135](http://arxiv.org/abs/2610.05135)|null|
 |**2026-10-03**|**Asynchronous Tracking, Optical Communication and 3D Motion Capture using Event-based Sensors**|Ziwei Wang et.al.|[@2610.04342](http://arxiv.org/abs/2610.04342)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -103,7 +103,7 @@
 |**2026-10-15**|**Policy-Aligned Predictive Verification for Adaptive VLA Action-Chunk Execution**|Minkyu Kim et.al.|[@2610.21434](http://arxiv.org/abs/2610.21434)|null|
 |**2026-10-15**|**Fast-VLA: You Only Think Once for Robot Manipulation**|Kehong Gong et.al.|[@2610.21389](http://arxiv.org/abs/2610.21389)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -148,7 +148,7 @@
 |**2026-10-13**|**Contact-UAN: Unsupervised Actuator Networks as a Residual World Model for Humanoid Control**|Nolan Fey et.al.|[@2610.18991](http://arxiv.org/abs/2610.18991)|null|
 |**2026-10-13**|**WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions**|Haoyi Duan et.al.|[@2610.18826](http://arxiv.org/abs/2610.18826)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -159,7 +159,7 @@
 |**2026-10-05**|**An Autonomous, 3D Printed, Waterjet-Powered, Open-Source Robotic Trimaran for Environmental Inspection and Monitoring**|Reuben O'Brien et.al.|[@2610.07398](http://arxiv.org/abs/2610.07398)|null|
 |**2026-10-05**|**Computational Design of Free-Form Lampshades**|Hiro Nakasuji et.al.|[@2610.05770](http://arxiv.org/abs/2610.05770)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -174,7 +174,7 @@
 |**2026-10-04**|**Reflecting on Creative-Boundaries with an AI Co-Doodler**|Samia Menon et.al.|[@2610.05482](http://arxiv.org/abs/2610.05482)|null|
 |**2026-10-03**|**DimSteer: Steering LLM Authoring with Automatically Discovered Stylistic Controls**|Ajit Mallavarapu et.al.|[@2610.04174](http://arxiv.org/abs/2610.04174)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -214,7 +214,7 @@
 |**2026-10-11**|**Channel Match: Calibrating Shape Latents for Few-Step 3D Generation**|Di Yang et.al.|[@2610.15321](http://arxiv.org/abs/2610.15321)|null|
 |**2026-10-10**|**Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving**|Tianyi Yang et.al.|[@2610.15112](http://arxiv.org/abs/2610.15112)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -252,7 +252,7 @@
 |**2026-10-10**|**Scaling Latent Motor Adaptation to Coordinated Bimanual Manipulation**|Seung-Bin Joo et.al.|[@2610.14833](http://arxiv.org/abs/2610.14833)|null|
 |**2026-10-10**|**DexCast: Learning Real-World Dexterous Control from Human Videos**|Zihan Gao et.al.|[@2610.14691](http://arxiv.org/abs/2610.14691)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -269,7 +269,7 @@
 |**2026-10-05**|**Computational Design of Free-Form Lampshades**|Hiro Nakasuji et.al.|[@2610.05770](http://arxiv.org/abs/2610.05770)|null|
 |**2026-10-04**|**Reflection-Robust 6DoF Object Tracking with Light Fields**|Nikolai Goncharov et.al.|[@2610.04883](http://arxiv.org/abs/2610.04883)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -277,7 +277,7 @@
 |---|---|---|---|---|
 |**2026-10-07**|**AutoSynth: Learning to Generate Editable Synthesizer Programs from Audio and Text**|Tristan Wu et.al.|[@2610.10774](http://arxiv.org/abs/2610.10774)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

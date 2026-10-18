@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.17
+## 📚 Updated on 2026.10.18
 
 <details>
   <summary>Table of Contents</summary>
@@ -330,7 +330,7 @@
 - 2026-10-15, **Compression of Uniformly Distributed Unit Quaternions**, Carsten Faber et.al., Paper: [@2610.22052](http://arxiv.org/abs/2610.22052)
 > **Abstract:** Unit quaternions are widely used in computer graphics making their efficient compression critical for reducing memory consumption and bandwidth requirements. In this paper, we present a novel method for encoding uniformly distributed unit quaternions. Our thorough analysis of several quaternion parameterizations compares their theoretical error properties, quantization behavior, computational cost, and memory efficiency and provides both an analytical and empirical characterization. We show that an infinity-norm parameterization with our optimized warp function consistently offers the smallest maximum error and the best storage efficiency, at a decompression cost equal to or lower than that of parameterization methods found in practice. We demonstrate the practical benefits of the proposed approach in several graphics applications, including tangent-space normal mapping, skeletal animation with blend weights, and Gaussian splatting.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -381,7 +381,7 @@
 - 2026-10-06, **Physics-based Sphere Packing for Lagrangian Mesh Morphing**, Jiong Lin et.al., Paper: [@2610.08880](http://arxiv.org/abs/2610.08880)
 > **Abstract:** This paper studies tetrahedral meshes as the body representation for differentiable simulation and computational design. Fixed-connectivity meshes degrade under large morphs, while remeshing from scratch discards node correspondence. We present JamTet, a physics-based sphere-packing framework for volumetric meshing and morphing. We contribute (i) a GPU-parallel mesher combining octree-hierarchical packing with constrained Delaunay tetrahedralization, producing more uniform element volumes than TetGen and fTetWild; (ii) Lagrangian mesh morphing that preserves interior-node identities by re-equilibrating the same spheres within changing shapes and rebuilding the boundary and connectivity, remaining inversion-free where fixed-connectivity and TetSphere meshes invert; and (iii) a differentiable GPU simulator in JAX, with mass-spring edges and a volumetric Neo-Hookean term, integrated with mesh morphing in a design pipeline. In soft-robot morphology design experiments, interior-node gradients improve swimming fitness by 0.73-1.07 over a matched surface-only variant, while voxelized versions of the same designs yield 32-63% lower fitness. These results establish sphere packing as a practical volumetric mesh representation for gradient-based shape optimization. Code and media: under review.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -490,7 +490,7 @@
 - 2026-10-15, **AdapTest: Supporting Designers in Authoring and Evaluating Environmentally Responsive User Interfaces for Extended Reality**, Jungwoo Rhee et.al., Paper: [@2610.21386](http://arxiv.org/abs/2610.21386)
 > **Abstract:** Extended Reality (XR) headsets increasingly host familiar 2D user interfaces as windows floating in physical environments. However, their usability depends on environmental conditions that designers cannot fully control. Current design workflows often separate how a variant is designed from how it actually looks in the target environment. We present AdapTest, an in-situ authoring and testing tool that lets designers select interface elements, define when and how they change, compare the resulting variations, and test their activation without coding. Based on prior research and a formative study with 12 interface designers, the system targets three key environmental variables: distance, lighting, and occlusion. We evaluated AdapTest against a desktop design and in-headset preview workflow in a within-subjects study with 12 designers. Compared with the baseline, designers accounted for a wider range of environmental factors, addressed more overlapping conditions, and repeatedly tested and revised their designs in place; there were no significant differences in workload or usability despite longer sessions. Our work contributes an integrated, designer-centered approach to adapting, comparing, and validating environmentally responsive XR user interfaces.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -3823,7 +3823,7 @@
 - 2026-10-15, **Fast-VLA: You Only Think Once for Robot Manipulation**, Kehong Gong et.al., Paper: [@2610.21389](http://arxiv.org/abs/2610.21389)
 > **Abstract:** Vision-language-action (VLA) policies commonly place a multi-billion-parameter model inside the feedback loop, repeatedly recomputing task context whenever they predict a new action chunk. Yet task understanding changes far more slowly than the robot state. We introduce Fast-VLA, which invokes a frozen 4B VLM once per episode to contextualize the instruction and initial views as fixed, multi-layer key-value task memory. During execution, a lightweight online actor fuses learned time- and arm-indexed queries with current visual and proprioceptive feedback to form action queries. These queries retrieve task context from the fixed memory and predict action chunks without re-running the foundation model. Fast-VLA achieves 92.46% and 92.40% success on RoboTwin 2.0 Clean and Randomized, and 95.95% and 79.11% on LIBERO and LIBERO-Plus evaluation. Against three continually conditioned baselines on the same hardware, it reduces RoboTwin amortized policy inference time by 10.9-17.1x and requires 1.22 GiB of post-prefill online resident memory. Task-memory swaps further show that the actor relies on episode-matched task memory. These results show that task context can be established once while closed-loop control remains responsive throughout execution. Project page: https://garfield-kh.github.io/FastVLA
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -5658,7 +5658,7 @@
 - 2026-10-14, **Orbia: Do Generated Videos Form a Consistent 3D World?**, Dongyue Lu et.al., Paper: [@2610.20693](http://arxiv.org/abs/2610.20693)
 > **Abstract:** Video generators serve as interactive worlds for exploration and simulation, yet realistic and visually appealing frames do not necessarily depict a consistent 3D world. Existing benchmarks assess selected geometric properties or use vision-language models to judge memory and consistency, leaving systematic 3D evaluation underexplored. We introduce Orbia, the first benchmark dedicated to a systematic and comprehensive evaluation of 3D consistency in interactive world models. Through controlled exploration and revisit, we organize the evaluation into three dimensions: input preservation, generated-content persistence, and 3D self-consistency. For input preservation, registered RGB-D references and annotated anchors support appearance, geometry, and spatial stability measurements. For generated-content persistence, we compare revisits to regions absent from the input image with their first generated observations to test whether models preserve what they create. For 3D self-consistency, cross-view depth and feature correspondence, regional scale agreement, and held-out Gaussian rendering test whether generated views describe the same 3D scene. Minute-long exploration and revisits further test long-term consistency. Our construction and annotation pipeline brings together public datasets, self-captured scenes, and simulation, yielding 720 instances across indoor and outdoor environments and six exploration-and-revisit protocols. Evaluation spans 27 text-, action-, and camera-conditioned models through native-interface adapters. Our Orbia benchmark provides a systematic basis for diagnosing 3D inconsistency and developing more persistent video world models.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -6733,7 +6733,7 @@
 - 2026-10-15, **ResStreamGS: Residual-Sensitive Dual-Stream Gaussian Splatting for Mobile Volumetric Video Streaming**, Haoran Liu et.al., Paper: [@2610.21121](http://arxiv.org/abs/2610.21121)
 > **Abstract:** Real-time mobile volumetric video enables immersive free-viewpoint experiences, but delivering high-quality 3D content under constrained bandwidth and computation remains challenging. Recent 3D Gaussian Splatting (3DGS) systems, such as V$^3$, enable efficient mobile streaming by encoding time-varying Gaussian attributes with commodity video codecs and hardware decoding. However, existing pipelines treat all Gaussians as frame-varying signals, which is poorly suited to full-scene content where large portions remain temporally stable. Our empirical study shows that frame-wise adaptation and video coding of all Gaussians cause quality degradation in complex full-scene content, particularly in temporally stable regions. To address this issue, we propose ResStreamGS, a residual-sensitive dual-stream framework that processes Gaussians according to their temporal behavior. ResStreamGS identifies residual-sensitive primitives through lightweight probe adaptation and reuses stable Gaussians within each Group of Pictures (GOP). Stable Gaussians are transmitted once per GOP, while only residual-sensitive Gaussians remain in the frame-wise hardware-decodable video stream. Experiments on complex full-scene volumetric videos show that ResStreamGS improves post-codec PSNR by 7.51--8.35~dB over a controlled V$^3$-style all-Gaussians baseline, reduces amortized payload by up to 56.5%, and achieves 30.883~FPS on a Qualcomm Snapdragon 778G platform.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -7534,7 +7534,7 @@
 - 2026-10-14, **SNOAR: Self-training with Noise filtering, Observation adding, and Remixing for Speech Denoising Without Clean References**, Samuele Cornell et.al., Paper: [@2610.20863](http://arxiv.org/abs/2610.20863)
 > **Abstract:** Unsupervised speech denoising methods such as MixIT and noisy-target training can be trained directly on noisy recordings, avoiding the sim-to-real gap of synthetic training data, but remain well below supervised performance. Teacher--student self-training, as in RemixIT, narrows this gap by remixing a teacher's estimates into new mixtures that supervise a student; however, since the student is trained only toward the teacher's estimates, teacher errors, in particular over-suppressed speech, are never recovered and propagate as the teacher is updated from the student. We propose SNOAR, a self-training framework that corrects the teacher's estimates before use: the noise leaked into its speech estimate is removed by differential noise filtering (DNF), and part of the noisy observation is added back in to restore suppressed speech and attenuate artifacts. We show that the two corrections depend on each other, as without DNF the loop collapses to the identity mapping. Compared to RemixIT, SNOAR is more stable along training and outperforms it in signal-based, perceptual, and word error rate metrics, reaching 97\% of the SI-SDR improvement of a fully-supervised topline on WHAM!; on real CHiME-3 recordings, it improves every metric of three different teachers, while RemixIT degrades their perceptual quality.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -7611,7 +7611,7 @@
 - 2026-10-07, **AutoSynth: Learning to Generate Editable Synthesizer Programs from Audio and Text**, Tristan Wu et.al., Paper: [@2610.10774](http://arxiv.org/abs/2610.10774)
 > **Abstract:** Audio generation models can translate natural-language descriptions into sound, but their outputs are typically waveforms. Their audio quality is constrained by audio compression, and their outputs do not readily support direct edits to notes, timbral parameters, or modulation relationships. We present AutoSynth, which represents MIDI performance events, fixed synthesizer parameters, and variable-length modulation routes as a unified sequence for a synthesizer, and learns their dependencies with an audio-conditioned autoregressive model. A single model supports both tasks. Given reference audio, the model directly predicts a synthesizer program; given text, it uses a pretrained audio generation model and converts the generated audio into a program. Training consists of two stages: supervised learning on large-scale audio-program pairs automatically constructed from a small set of native presets, followed by group-relative policy optimization with a mixed reward combining semantic similarity, pitch-related features, acoustic similarity, and sound usefulness. The pipeline requires neither paired text-target-program annotations nor a differentiable synthesizer. Experiments show that AutoSynth produces complete, editable synthesizer programs and achieves competitive results in both synthesizer inversion and text-driven generation. Audio demos and source code are available at https://auto-synth.github.io/.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -7772,7 +7772,7 @@
 - 2026-10-15, **SUPRA-TEX: 3D Generation with Super-Aligned Texture**, Chen Yang et.al., Paper: [@2610.22352](http://arxiv.org/abs/2610.22352)
 > **Abstract:** Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine details through implicit image-feature conditioning. To resolve these challenges, we introduce SUPRA-Tex, built on the principle of decoupling visible-material estimation, surface alignment, and observation-guided 3D completion. This division of labor allows the 3D generator, trained on limited 3D data, to focus its capacity on preserving visible evidence and completing unobserved surfaces. Specifically, we first train an MLLM-based image editing model to predict lighting-separated PBR maps in the reference view. We then project these maps onto the visible surface and encode them with the pretrained material VAE encoder into native observation latents that share the generation target's latent space. An interleaved flow transformer holds these latents as fixed, read-only anchors while alternating unobserved-region and full-surface updates to generate complete material latents. This design achieves super-alignment with the reference, delivering What You See Is What You Get fidelity on visible regions and coherent completion on unobserved surfaces. Trained solely on public datasets, SUPRA-Tex achieves SOTA performance in both geometry-conditioned texturing and end-to-end asset generation, matching or even exceeding leading commercial systems on in-the-wild images. Project page: https://supra-3d.github.io/supratex/
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -7797,7 +7797,7 @@
 - 2026-10-12, **Low-Cost Deep Learning for Automated Keyframe Interpolation in Sprite Animation**, Kenneth Alonso et.al., Paper: [@2610.16423](http://arxiv.org/abs/2610.16423)
 > **Abstract:** Sprite-based animation remains prevalent in video game development, but manual in-betweening---generating intermediate frames between keyframes---is labor-intensive. Existing video frame interpolation methods, optimized for photorealistic content, introduce smoothing artifacts when applied to the sharp edges, limited color palettes, and stylized motion characteristic of hand-drawn sprites. We present a deep learning approach for sprite in-betweening that adapts a U-Net encoder-decoder architecture with domain-specific modifications, including RGBA-aware processing, multi-scale flow refinement, and alpha-gated blending to preserve pixel-perfect sprite aesthetics. Following data-centric AI principles, we demonstrate that a few carefully curated sprite animation triplets---selected for diversity, quality, and representative edge cases---enable effective training without requiring massive generic datasets. Experimental evaluation using the FLIP perceptual metric shows that our method achieves a mean error of 0.258 on 42 test triplets, outperforming state-of-the-art video interpolation RIFE (0.313, 17.5\% worse), traditional optical flow Lucas-Kanade (0.449, 42.6\% worse), and general frame synthesis CyclicGen (0.603, 57.2\% worse). This study shows that quality-over-quantity data curation and domain-specific architectural adaptations yield better interpolation quality than general-purpose methods trained on orders of magnitude more data, validating the data-centric AI paradigm for specialized visual domains. This is particularly important for small-to-medium-sized game development studios, where budget and time constraints are critical.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

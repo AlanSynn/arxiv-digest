@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.17
+## 📚 Updated on 2026.10.18
 
 <details>
   <summary>Table of Contents</summary>
@@ -28,7 +28,7 @@
 - 2026-10-08, **PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting**, Nicholas Ioannidis et.al., Paper: [@2610.12642](http://arxiv.org/abs/2610.12642)
 > **Abstract:** Motion retargeting is a critical preprocessing step for transferring human motion data to humanoid robots. While existing methods are effective for single-character motions, interactions involving multiple characters and objects introduce additional contacts and spatial relationships that must be preserved. Retargeting is commonly formulated as a weighted multi-objective optimization problem, where conflicting objectives can require careful tuning of relative weights and can still compromise important motion characteristics. We introduce PriMoRetarget, a prioritized motion-retargeting framework that replaces relative objective weighting with an explicit priority hierarchy. Lower-priority updates are constrained to preserve higher-priority objectives, allowing critical characteristics such as foot placement and interaction contacts to take precedence over lower-priority pose objectives. The method is evaluated on four datasets spanning single-character motion, character-object manipulation, and character-character interactions. The resulting motions better preserve task-relevant interactions and provide reference trajectories that can be tracked more reliably than those produced by widely used retargeting methods.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Character Motion Synthesis & Animation
 
@@ -85,7 +85,7 @@
 - 2026-10-03, **Asynchronous Tracking, Optical Communication and 3D Motion Capture using Event-based Sensors**, Ziwei Wang et.al., Paper: [@2610.04342](http://arxiv.org/abs/2610.04342)
 > **Abstract:** Inter-robot communication is a key enabling technology in cooperative robotics applications. While wireless communication is ubiquitous, simple, and effective, it has inherent limitations: the receiving robot cannot easily localise the source of an incoming signal, clock synchronisation is challenging, and signals are broadcast to all nearby devices rather than targeted recipients. Optical communication provides a complementary channel that is inherently directional and spatially localised, directly addressing these limitations. Event cameras are bio-inspired dynamic vision sensors that respond to changes in image intensity with high temporal resolution, high dynamic range, and low latency, making them well-suited as receivers for high-rate optical communication in cooperative robotic systems. In this paper, we propose the Asynchronous Tracking and Optical Communication (ATOC) system, which integrates LED smart-beacon modulation, event-based detection, optical tracking, and event-data demodulation in a single pipeline. By simultaneously tracking and demodulating multiple LED smart beacons, ATOC transforms a conventional visual marker into a robust communication channel suitable for a wide range of high-impact robotics applications. We validate ATOC in a suite of laboratory studies and two 'applications': a smart-city demonstration and a 3D motion-capture system.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -154,7 +154,7 @@
 - 2026-10-15, **Fast-VLA: You Only Think Once for Robot Manipulation**, Kehong Gong et.al., Paper: [@2610.21389](http://arxiv.org/abs/2610.21389)
 > **Abstract:** Vision-language-action (VLA) policies commonly place a multi-billion-parameter model inside the feedback loop, repeatedly recomputing task context whenever they predict a new action chunk. Yet task understanding changes far more slowly than the robot state. We introduce Fast-VLA, which invokes a frozen 4B VLM once per episode to contextualize the instruction and initial views as fixed, multi-layer key-value task memory. During execution, a lightweight online actor fuses learned time- and arm-indexed queries with current visual and proprioceptive feedback to form action queries. These queries retrieve task context from the fixed memory and predict action chunks without re-running the foundation model. Fast-VLA achieves 92.46% and 92.40% success on RoboTwin 2.0 Clean and Randomized, and 95.95% and 79.11% on LIBERO and LIBERO-Plus evaluation. Against three continually conditioned baselines on the same hardware, it reduces RoboTwin amortized policy inference time by 10.9-17.1x and requires 1.22 GiB of post-prefill online resident memory. Task-memory swaps further show that the actor relies on episode-matched task memory. These results show that task context can be established once while closed-loop control remains responsive throughout execution. Project page: https://garfield-kh.github.io/FastVLA
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -235,7 +235,7 @@
 - 2026-10-13, **WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions**, Haoyi Duan et.al., Paper: [@2610.18826](http://arxiv.org/abs/2610.18826)
 > **Abstract:** We introduce WorldOracle, a benchmark specifically designed to evaluate action-conditioned world models (ACWMs) against paired real-world executions. Given the same initial observation and low-level action sequence, WorldOracle asks whether a predicted rollout reproduces what happens in the real world, including physical consequences and task-state transitions. We evaluate models along four complementary dimensions: physical state correctness, interaction spatial alignment, key interaction area fidelity, and multi-view action coherence. To support this evaluation, we curate real-world training and evaluation suites that cover different interaction dynamics and embodiments. The evaluation suite contains long, multi-segment episodes with both successful and failed executions, enabling evaluation across varied action outcomes and behavior distributions. Experiments on seven representative ACWMs reveal distinct model strengths and failure modes. WorldOracle provides a systematic foundation for measuring and advancing action-conditioned world modeling for manipulation. We will release the datasets, evaluation code, and leaderboard.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -248,7 +248,7 @@
 - 2026-10-05, **Computational Design of Free-Form Lampshades**, Hiro Nakasuji et.al., Paper: [@2610.05770](http://arxiv.org/abs/2610.05770)
 > **Abstract:** Conventional lampshades are predominantly restricted to simple geometries, owing to the difficulty of controlling optical functions across complex shapes. We present a computational design method that enables 3D-printable lampshades with complex free-form shapes to achieve controlled illumination, such as uniform luminance. Given an arbitrary shape, our method determines the internal cavity geometry and the number and placement of lights in two stages: an initialization stage fixes the number of lights and establishes their initial positions and the initial cavity geometry, after which gradient-based optimization jointly refines the cavity geometry and light positions via differentiable rendering subject to geometric constraints. We calibrate the material parameters of the translucent shade material prior to optimization to improve the agreement between simulation and the fabricated result. We validate our approach by 3D-printing five lampshade designs of varying geometric complexity and demonstrate that the fabricated lampshades achieve reasonably uniform luminance.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -269,7 +269,7 @@
 - 2026-10-03, **DimSteer: Steering LLM Authoring with Automatically Discovered Stylistic Controls**, Ajit Mallavarapu et.al., Paper: [@2610.04174](http://arxiv.org/abs/2610.04174)
 > **Abstract:** Large language model writing interfaces often make users steer outputs by repeatedly articulating desired changes in natural language. Yet writers may recognize useful stylistic directions only after seeing alternatives, making revision recall-heavy. We present DimSteer, an authoring interface that samples prompt-local completions, discovers high-variance activation-space axes of variation, labels them, and exposes them as sliders with pole previews, diff comparison, and reset controls. Users can manipulate discovered dimensions, reducing the need to reformulate prompts for each stylistic adjustment. In a within-subjects study with 16 participants against a matched prompt-only baseline, DimSteer reduced mental demand, effort, and frustration while preserving comparable perceived success. Participants valued the surfaced dimensions, yet 15 of 16 disagreed that they would have thought to request the same changes in a prompt. Results suggest prompt-local controls can shift LLM authoring from recall-based prompting toward recognition-based exploration and direct manipulation, while preserving prompting for open-ended edits.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -340,7 +340,7 @@
 - 2026-10-10, **Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving**, Tianyi Yang et.al., Paper: [@2610.15112](http://arxiv.org/abs/2610.15112)
 > **Abstract:** High-fidelity closed-loop simulation for autonomous driving increasingly relies on dense multi-view 3D reconstruction. While recent feed-forward geometric foundation models have revolutionized per-scene optimization, applying them to continuous, long-horizon driving sequences is computationally intractable due to GPU memory limits and the quadratic complexity of global attention. Existing scaling strategies are fundamentally limited, as causal streaming suffers from compounding scale drift and trajectory deviation, while rigid "chunk-then-align" heuristics fragment global context and produce trajectory discontinuities. To address these limitations, we introduce Drive3R, a block-wise streaming geometric foundation model. Its block-wise causal attention resolves the scalability bottleneck of fully bidirectional attention while avoiding the loss of local future context in purely causal streaming. Its confidence-aware re-anchoring further mitigates long-range drift by detecting unreliable streaming states, re-initializing the KV cache, and stitching refreshed segments through SE(3) alignment. Extensive experiments demonstrate that Drive3R establishes a new state-of-the-art on nuScenes, KITTI, and Waymo. Specifically, on nuScenes, it improves over the recent DVGT-2 baseline from 0.1806 to 0.1081 in AbsRel, from 0.6750 to 0.5344 in point-cloud Accuracy, and from 1.5812 to 0.9092 in ATE.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -407,7 +407,7 @@
 - 2026-10-10, **DexCast: Learning Real-World Dexterous Control from Human Videos**, Zihan Gao et.al., Paper: [@2610.14691](http://arxiv.org/abs/2610.14691)
 > **Abstract:** Recent advances in 3D hand-object interaction (HOI) perception have opened new opportunities for learning dexterous robotic skills from human videos. However, existing dexterous imitation learning methods often rely on costly and manually teleoperated robot demonstrations, requiring substantial human effort. Therefore, we build DEXCAST, a framework that learns dexterous robotic hand control directly from monocular RGB-D videos by leveraging joint HOI reconstructions, without requiring any teleoperation. Furthermore, how to model high-dimensional robotic hand motion and extract temporal context to inform future action generation remains a key challenge. To this end, we propose a DexHand Motion Perception Module (DMPM) to capture inter-joint coordination and temporal dependencies in compact latent representations that condition our diffusion policy. Extensive real-world experiments demonstrate that DEXCAST achieves exceptional performance across diverse dexterous manipulation tasks.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -432,14 +432,14 @@
 - 2026-10-04, **Reflection-Robust 6DoF Object Tracking with Light Fields**, Nikolai Goncharov et.al., Paper: [@2610.04883](http://arxiv.org/abs/2610.04883)
 > **Abstract:** Tracking the 6DoF pose of a moving rigid object is fundamental to robotics and autonomous driving, but existing trackers assume that object appearance is stable across a sequence, an assumption that breaks down on reflective surfaces whose appearance changes as they mirror the environment. We introduce a light field based reflection-robust 6DoF tracker that turns this apparent nuisance into a pose cue. Per frame, our method recovers depth robustly against reflections, back-projects it into a point cloud, and estimates surface normals. It then decomposes the object's view-dependent appearance into a diffuse albedo and the environment map it reflects, resulting in a relightable surface light field. Starting from a coarse initialization, we relight it by the recovered environment map and optimize the pose on the photometric loss. Because a moving object mirrors new parts of the scene, the environment map fills in as the sequence proceeds, sharpening this signal over time. To evaluate this approach, we introduce a light field tracking dataset re-rendered from a robotic manipulation benchmark at four controlled reflectivity levels, each paired with simulated depth that reproduces how consumer RGB-D sensors fail on shiny surfaces. Additionally, we evaluate on two captured light field sequences. Our method trails the strongest baselines on diffuse objects and is the only one that holds its accuracy on fully reflective objects, where every baseline degrades.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
 - 2026-10-07, **AutoSynth: Learning to Generate Editable Synthesizer Programs from Audio and Text**, Tristan Wu et.al., Paper: [@2610.10774](http://arxiv.org/abs/2610.10774)
 > **Abstract:** Audio generation models can translate natural-language descriptions into sound, but their outputs are typically waveforms. Their audio quality is constrained by audio compression, and their outputs do not readily support direct edits to notes, timbral parameters, or modulation relationships. We present AutoSynth, which represents MIDI performance events, fixed synthesizer parameters, and variable-length modulation routes as a unified sequence for a synthesizer, and learns their dependencies with an audio-conditioned autoregressive model. A single model supports both tasks. Given reference audio, the model directly predicts a synthesizer program; given text, it uses a pretrained audio generation model and converts the generated audio into a program. Training consists of two stages: supervised learning on large-scale audio-program pairs automatically constructed from a small set of native presets, followed by group-relative policy optimization with a mixed reward combining semantic similarity, pitch-related features, acoustic similarity, and sound usefulness. The pipeline requires neither paired text-target-program annotations nor a differentiable synthesizer. Experiments show that AutoSynth produces complete, editable synthesizer programs and achieves competitive results in both synthesizer inversion and text-driven generation. Audio demos and source code are available at https://auto-synth.github.io/.
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

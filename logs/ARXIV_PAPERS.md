@@ -3,18 +3,18 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.17
+## 📚 Updated on 2026.10.18
 
 <details open>
-<summary>📑 Table of Contents — 2026-10-17</summary>
+<summary>📑 Table of Contents — 2026-10-18</summary>
 
 **By category**
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (2)
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (26)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (25)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (32)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (4)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (8)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (7)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (33)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (31)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (10)
@@ -182,7 +182,7 @@
 |**2026-10-15**|**Dense4D: Pixel-Level 4D Human Correspondence**|Rıza Alp Güler et.al.|[@2610.22325](http://arxiv.org/abs/2610.22325)|null|
 |**2026-10-15**|**Compression of Uniformly Distributed Unit Quaternions**|Carsten Faber et.al.|[@2610.22052](http://arxiv.org/abs/2610.22052)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -212,7 +212,7 @@
 |**2026-10-07**|**Simulation Methods for Multiphysics Phenomena in Visual Computing**|Fabian Löschner et.al.|[@2610.09822](http://arxiv.org/abs/2610.09822)|null|
 |**2026-10-06**|**Physics-based Sphere Packing for Lagrangian Mesh Morphing**|Jiong Lin et.al.|[@2610.08880](http://arxiv.org/abs/2610.08880)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -271,7 +271,7 @@
 |**2026-10-12**|**TouchTwin: Human-AI Haptic Authoring for 3D-Scanned Tabletop Scenes through Language and Touch**|Wanli Qian et.al.|[@2610.17302](http://arxiv.org/abs/2610.17302)|null|
 |**2026-10-15**|**AdapTest: Supporting Designers in Authoring and Evaluating Environmentally Responsive User Interfaces for Extended Reality**|Jungwoo Rhee et.al.|[@2610.21386](http://arxiv.org/abs/2610.21386)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -1942,7 +1942,7 @@
 |**2026-10-15**|**Policy-Aligned Predictive Verification for Adaptive VLA Action-Chunk Execution**|Minkyu Kim et.al.|[@2610.21434](http://arxiv.org/abs/2610.21434)|null|
 |**2026-10-15**|**Fast-VLA: You Only Think Once for Robot Manipulation**|Kehong Gong et.al.|[@2610.21389](http://arxiv.org/abs/2610.21389)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -2864,7 +2864,7 @@
 |**2026-10-14**|**RIGen: Beyond Action Following with Reciprocal Interaction in Generative Gameplay**|Mengfei Li et.al.|[@2610.20811](http://arxiv.org/abs/2610.20811)|null|
 |**2026-10-14**|**Orbia: Do Generated Videos Form a Consistent 3D World?**|Dongyue Lu et.al.|[@2610.20693](http://arxiv.org/abs/2610.20693)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -3406,7 +3406,7 @@
 |**2026-10-15**|**GeoPano: Towards Geometrically Accurate 3D Reconstruction from a Single Panorama**|Jing OU et.al.|[@2610.21297](http://arxiv.org/abs/2610.21297)|null|
 |**2026-10-15**|**ResStreamGS: Residual-Sensitive Dual-Stream Gaussian Splatting for Mobile Volumetric Video Streaming**|Haoran Liu et.al.|[@2610.21121](http://arxiv.org/abs/2610.21121)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -3811,7 +3811,7 @@
 |**2026-10-14**|**TGrasp6D: Task-Informed Vision-Language Priors and Pose Refinement enable Zero-Shot Task-Oriented 6DoF Grasping**|Manav Kulshrestha et.al.|[@2610.20901](http://arxiv.org/abs/2610.20901)|null|
 |**2026-10-14**|**SNOAR: Self-training with Noise filtering, Observation adding, and Remixing for Speech Denoising Without Clean References**|Samuele Cornell et.al.|[@2610.20863](http://arxiv.org/abs/2610.20863)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -3854,7 +3854,7 @@
 |**2026-09-30**|**PLACE: Positional Latent Adaptation via Conditioned Embeddings for Binaural Audio Generation**|Tiernon Riesenmy et.al.|[@2610.00630](http://arxiv.org/abs/2610.00630)|null|
 |**2026-10-07**|**AutoSynth: Learning to Generate Editable Synthesizer Programs from Audio and Text**|Tristan Wu et.al.|[@2610.10774](http://arxiv.org/abs/2610.10774)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -3939,7 +3939,7 @@
 |**2026-10-14**|**VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting**|Sven Kluge et.al.|[@2610.19847](http://arxiv.org/abs/2610.19847)|null|
 |**2026-10-15**|**SUPRA-TEX: 3D Generation with Super-Aligned Texture**|Chen Yang et.al.|[@2610.22352](http://arxiv.org/abs/2610.22352)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -3956,7 +3956,7 @@
 |**2026-10-08**|**PriMoRetarget: Humanoid Motion Transfer Through Prioritized Motion Retargeting**|Nicholas Ioannidis et.al.|[@2610.12642](http://arxiv.org/abs/2610.12642)|null|
 |**2026-10-12**|**Low-Cost Deep Learning for Automated Keyframe Interpolation in Sprite Animation**|Kenneth Alonso et.al.|[@2610.16423](http://arxiv.org/abs/2610.16423)|null|
 
-<p align=right>(<a href=#updated-on-20261017>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261018>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

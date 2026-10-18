@@ -174,5 +174,3 @@
 | 2026-10-04 | **Reflection-Robust 6DoF Object Tracking with Light Fields** | Neural Rendering & Physics Simulation | 0.67 | relightable | [@2610.04883](http://arxiv.org/abs/2610.04883) | null |
 | 2026-10-04 | **Reflecting on Creative-Boundaries with an AI Co-Doodler** | Sketch-based & Creative HCI Tools | 0.50 | co-creative | [@2610.05482](http://arxiv.org/abs/2610.05482) | null |
 | 2026-10-04 | **Monocular markerless biomechanics for clinically interpretable gait assessment in spinal cord injury** | Character Motion Synthesis & Animation | 0.33 | motion capture | [@2610.05552](http://arxiv.org/abs/2610.05552) | null |
-| 2026-10-03 | **Asynchronous Tracking, Optical Communication and 3D Motion Capture using Event-based Sensors** | Character Motion Synthesis & Animation | 0.67 | motion capture | [@2610.04342](http://arxiv.org/abs/2610.04342) | null |
-| 2026-10-03 | **DimSteer: Steering LLM Authoring with Automatically Discovered Stylistic Controls** | Sketch-based & Creative HCI Tools | 0.67 | authoring | [@2610.04174](http://arxiv.org/abs/2610.04174) | null |
