@@ -3,18 +3,18 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.23
+## 📚 Updated on 2026.10.24
 
 <details open>
-<summary>📑 Table of Contents — 2026-10-23</summary>
+<summary>📑 Table of Contents — 2026-10-24</summary>
 
 **By category**
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (31)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (27)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (31)
 - [World Models & Generative Video](#world-models--generative-video) (39)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (2)
-- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
+- [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (5)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (29)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (31)
 - [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (5)
@@ -30,7 +30,7 @@
 |---|---|---|---|---|
 |**2026-10-19**|**Neural Controlled Directional Frame Generation for Sprite Animation**|Kenneth Alonso et.al.|[@2610.27253](http://arxiv.org/abs/2610.27253)|null|
 
-<p align=right>(<a href=#updated-on-20261023>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
 
 ## Character Motion Synthesis & Animation
 
@@ -68,7 +68,7 @@
 |**2026-10-09**|**Sonic-AMG: Streaming Human Motion Generation from Spatial Audio**|Jingcheng Ni et.al.|[@2610.13300](http://arxiv.org/abs/2610.13300)|null|
 |**2026-10-09**|**QCLR: A Plug-in Robustification Module via Quantization for Contrastive Learning in Self-Supervised Skeleton-Based Human Action Recognition**|Nanzhu Chen et.al.|[@2610.13281](http://arxiv.org/abs/2610.13281)|null|
 
-<p align=right>(<a href=#updated-on-20261023>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -106,7 +106,7 @@
 |**2026-10-22**|**VLTest: Finding Joint Image-Text Failures in Vision-Language Models**|Bin Duan et.al.|[@2610.30794](http://arxiv.org/abs/2610.30794)|null|
 |**2026-10-22**|**EBV-CAN: Vision--Language Grounding for Contact-Aided Endoscope Navigation**|Chi Kit Ng et.al.|[@2610.30786](http://arxiv.org/abs/2610.30786)|null|
 
-<p align=right>(<a href=#updated-on-20261023>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -152,7 +152,7 @@
 |**2026-10-20**|**SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model**|Qiayuan Liao et.al.|[@2610.28480](http://arxiv.org/abs/2610.28480)|null|
 |**2026-10-20**|**Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V**|Zhenghan Chen et.al.|[@2610.28416](http://arxiv.org/abs/2610.28416)|null|
 
-<p align=right>(<a href=#updated-on-20261023>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -161,7 +161,7 @@
 |**2026-10-21**|**Make it Walk: Computational Design of LEGO Walkers**|Siqi Li et.al.|[@2610.29505](http://arxiv.org/abs/2610.29505)|null|
 |**2026-10-15**|**SAMS: A Structured Graph Framework for Securing Additive Manufacturing Systems**|Sarah Roscoe et.al.|[@2610.22741](http://arxiv.org/abs/2610.22741)|null|
 
-<p align=right>(<a href=#updated-on-20261023>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -174,7 +174,7 @@
 |**2026-10-12**|**TouchTwin: Human-AI Haptic Authoring for 3D-Scanned Tabletop Scenes through Language and Touch**|Wanli Qian et.al.|[@2610.17302](http://arxiv.org/abs/2610.17302)|null|
 |**2026-10-09**|**From Instructional Intent to Classroom-Ready Lessons: Investigating Teacher-AI Collaboration in Lesson Authoring for Secondary Computing Education**|Tahreem Yasir et.al.|[@2610.12834](http://arxiv.org/abs/2610.12834)|null|
 
-<p align=right>(<a href=#updated-on-20261023>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -210,7 +210,7 @@
 |**2026-10-20**|**NeoWorld-3: From Pixels to Code-Defined Physical Worlds**|Eachen Soong et.al.|[@2610.27690](http://arxiv.org/abs/2610.27690)|null|
 |**2026-10-19**|**Counting Contributions, Not Views: Occlusion-Aware Densification for 3D Gaussian Splatting**|Marcel Rogge et.al.|[@2610.27108](http://arxiv.org/abs/2610.27108)|null|
 
-<p align=right>(<a href=#updated-on-20261023>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -248,7 +248,7 @@
 |**2026-10-15**|**Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation**|Zirui Wu et.al.|[@2610.22363](http://arxiv.org/abs/2610.22363)|null|
 |**2026-10-15**|**Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation**|Tianxing Chen et.al.|[@2610.22342](http://arxiv.org/abs/2610.22342)|null|
 
-<p align=right>(<a href=#updated-on-20261023>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -260,7 +260,7 @@
 |**2026-10-15**|**SUPRA-TEX: 3D Generation with Super-Aligned Texture**|Chen Yang et.al.|[@2610.22352](http://arxiv.org/abs/2610.22352)|null|
 |**2026-10-14**|**VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting**|Sven Kluge et.al.|[@2610.19847](http://arxiv.org/abs/2610.19847)|null|
 
-<p align=right>(<a href=#updated-on-20261023>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -268,7 +268,7 @@
 |---|---|---|---|---|
 |**2026-10-16**|**Semantic-Critical Regions for Video-to-Audio Generation**|Yun Fang et.al.|[@2610.23021](http://arxiv.org/abs/2610.23021)|null|
 
-<p align=right>(<a href=#updated-on-20261023>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors
