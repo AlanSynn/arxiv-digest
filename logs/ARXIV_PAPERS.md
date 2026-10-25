@@ -3,14 +3,14 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.24
+## 📚 Updated on 2026.10.25
 
 <details open>
-<summary>📑 Table of Contents — 2026-10-24</summary>
+<summary>📑 Table of Contents — 2026-10-25</summary>
 
 **By category**
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (27)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (25)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (31)
 - [World Models & Generative Video](#world-models--generative-video) (39)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (2)
@@ -200,7 +200,7 @@
 |**2026-10-21**|**Unified Trajectory and 3D Pose Forecasting for Multi-Agent Sports Analysis**|Marc Peral et.al.|[@2610.30519](http://arxiv.org/abs/2610.30519)|null|
 |**2026-10-21**|**EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video**|Chao-Yeh Chen et.al.|[@2610.30293](http://arxiv.org/abs/2610.30293)|null|
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -232,7 +232,7 @@
 |**2026-10-15**|**SAMS: A Structured Graph Framework for Securing Additive Manufacturing Systems**|Sarah Roscoe et.al.|[@2610.22741](http://arxiv.org/abs/2610.22741)|null|
 |**2026-10-21**|**Make it Walk: Computational Design of LEGO Walkers**|Siqi Li et.al.|[@2610.29505](http://arxiv.org/abs/2610.29505)|null|
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -294,7 +294,7 @@
 |**2026-10-15**|**Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation**|Renye Yan et.al.|[@2610.24010](http://arxiv.org/abs/2610.24010)|null|
 |**2026-10-22**|**CoWriter: Guiding Methodological and Synergetic Human-LLM Co-Authoring**|Shmuel Amar et.al.|[@2610.31277](http://arxiv.org/abs/2610.31277)|null|
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -2131,7 +2131,7 @@
 |**2026-10-22**|**VLTest: Finding Joint Image-Text Failures in Vision-Language Models**|Bin Duan et.al.|[@2610.30794](http://arxiv.org/abs/2610.30794)|null|
 |**2026-10-22**|**EBV-CAN: Vision--Language Grounding for Contact-Aided Endoscope Navigation**|Chi Kit Ng et.al.|[@2610.30786](http://arxiv.org/abs/2610.30786)|null|
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -3157,7 +3157,7 @@
 |**2026-10-21**|**Latent Space Jam: Layout Guided Video Synthesis**|Asaf Joseph et.al.|[@2610.30390](http://arxiv.org/abs/2610.30390)|null|
 |**2026-10-21**|**Self-Distilling Future Video Representations for World Action Models**|Huiwon Jang et.al.|[@2610.30320](http://arxiv.org/abs/2610.30320)|null|
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -3746,7 +3746,7 @@
 |**2026-10-21**|**DriftNeRF: Cross-Ray Density Drifting for Sparse-View Neural Radiance Fields**|Juntang Wang et.al.|[@2610.29106](http://arxiv.org/abs/2610.29106)|null|
 |**2026-10-20**|**Pair-Free Coarse-to-Real Video Generation via Real-to-Coarse Image Supervision**|Gonzalo Gómez-Nogales et.al.|[@2610.28954](http://arxiv.org/abs/2610.28954)|null|
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -4180,7 +4180,7 @@
 |**2026-10-22**|**In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations**|Hengyi Sim et.al.|[@2610.30988](http://arxiv.org/abs/2610.30988)|null|
 |**2026-10-21**|**Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives**|Jingyi Xiang et.al.|[@2610.30438](http://arxiv.org/abs/2610.30438)|null|
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -4224,7 +4224,7 @@
 |**2026-10-07**|**AutoSynth: Learning to Generate Editable Synthesizer Programs from Audio and Text**|Tristan Wu et.al.|[@2610.10774](http://arxiv.org/abs/2610.10774)|null|
 |**2026-10-16**|**Semantic-Critical Regions for Video-to-Audio Generation**|Yun Fang et.al.|[@2610.23021](http://arxiv.org/abs/2610.23021)|null|
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -4312,7 +4312,7 @@
 |**2026-10-17**|**Directionally Factorized Illumination with Spherical Harmonic Rotation**|Yimeng Dou et.al.|[@2610.24811](http://arxiv.org/abs/2610.24811)|null|
 |**2026-10-16**|**OrTeN: Neural Inverse Graphics for Joint Terrain and Line-scan Camera Trajectory Reconstruction**|Josef Biberstein et.al.|[@2610.24075](http://arxiv.org/abs/2610.24075)|null|
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -4330,7 +4330,7 @@
 |**2026-10-12**|**Low-Cost Deep Learning for Automated Keyframe Interpolation in Sprite Animation**|Kenneth Alonso et.al.|[@2610.16423](http://arxiv.org/abs/2610.16423)|null|
 |**2026-10-19**|**Neural Controlled Directional Frame Generation for Sprite Animation**|Kenneth Alonso et.al.|[@2610.27253](http://arxiv.org/abs/2610.27253)|null|
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

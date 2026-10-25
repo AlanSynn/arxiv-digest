@@ -165,5 +165,3 @@
 | 2026-10-12 | **ProMoDD: Dataset Distillation for 3D Human Motion via Prototype-Conditioned Diffusion Models** | Character Motion Synthesis & Animation | 1.00 | human motion, motion generation, motion diffusion | [@2610.16134](http://arxiv.org/abs/2610.16134) | null |
 | 2026-10-12 | **TouchTwin: Human-AI Haptic Authoring for 3D-Scanned Tabletop Scenes through Language and Touch** | Sketch-based & Creative HCI Tools | 0.67 | authoring | [@2610.17302](http://arxiv.org/abs/2610.17302) | null |
 | 2026-10-12 | **EgoWholeView: Camera-Only Head-Mounted Capture of Body and Bimanual Hand Motion for Embodied Demonstrations** | Character Motion Synthesis & Animation | 0.33 | motion capture | [@2610.16256](http://arxiv.org/abs/2610.16256) | null |
-| 2026-10-10 | **Learning Dynamic Grasping** | Character Motion Synthesis & Animation | 1.00 | character animation, motion generation | [@2610.14848](http://arxiv.org/abs/2610.14848) | null |
-| 2026-10-10 | **CAST: Real-Time Motion Capture for Any Skeleton Topology** | Character Motion Synthesis & Animation | 0.67 | motion capture | [@2610.14856](http://arxiv.org/abs/2610.14856) | null |

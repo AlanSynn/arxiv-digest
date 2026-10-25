@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.24
+## 📚 Updated on 2026.10.25
 
 <details>
   <summary>Table of Contents</summary>
@@ -366,7 +366,7 @@
 - 2026-10-21, **EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video**, Chao-Yeh Chen et.al., Paper: [@2610.30293](http://arxiv.org/abs/2610.30293)
 > **Abstract:** We introduce EgoHand, a monocular 3D hand reconstruction model that achieves state-of-the-art performance on egocentric video. Central to our approach is the curation of a high-quality training corpus of 14 million images, combining synthetic data, in-the-wild video, and multi-camera motion capture to balance scene diversity and supervision quality. The model adopts SOMA-Hand as its parametric representation and processes 2D hand crops with a transformer encoder, incorporating camera cues and an auxiliary 2D branch to improve geometric consistency and image alignment. Zero-shot evaluations on HOT3D, ARCTIC, and H2O demonstrate strong out-of-domain generalization, with lower joint-position, root-translation, and acceleration errors than competing baselines at an inference latency of approximately 9.69 ms. A blinded user preference study further shows that participants favor EgoHand's reconstructed hand poses over those from Apple EgoDex and Ropedia Xperience-10M. We release the EgoHand model and source code under the OpenMDW license, allowing free commercial use of the model.
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -421,7 +421,7 @@
 - 2026-10-21, **Make it Walk: Computational Design of LEGO Walkers**, Siqi Li et.al., Paper: [@2610.29505](http://arxiv.org/abs/2610.29505)
 > **Abstract:** LEGO walkers are walking automata constructed from modular LEGO Technic bricks. They exhibit intriguing locomotion and are also highly reconfigurable through the modular Technic bricks, making them widely applicable in education, recreation, and robotics research. However, existing LEGO walkers are designed mostly by reusing existing single-actuator walking mechanisms. Although the locomotion is stable, their fixed walking gaits limit their adaptability and versatility. This paper presents the first computational solution capable of designing LEGO walkers that not only walk stably, but also support a variety of walking gaits. Our idea is twofold. First, we control the foot motion trajectory of each leg mechanically via a specifically-designed gear-linkage mechanism, in which we incorporate a pair of 3D-printed non-circular gears to work with a LEGO Technic mechanism. Second, we drive each leg by an independent motor and synchronize the timings of multiple leg motions via a simple yet adaptable control algorithm, enabling stable and versatile locomotion. Importantly, we take this modeling as a foundation to co-design the morphology and control of the LEGO walkers to meet the target locomotion and appearance. Leveraging our approach, we created a variety of LEGO walkers, demonstrating various walking gaits and appearances, and fabricated some of them to show their locomotion capability in the real world.
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -536,7 +536,7 @@
 - 2026-10-22, **CoWriter: Guiding Methodological and Synergetic Human-LLM Co-Authoring**, Shmuel Amar et.al., Paper: [@2610.31277](http://arxiv.org/abs/2610.31277)
 > **Abstract:** While LLMs have transformed text generation, standard chat-and-canvas interfaces often reduce human authoring to quite passive supervision, causing review fatigue, over-reliance on AI, and the sidelining of the human role in long-form, source-grounded writing. Prior systems typically address isolated writing phases, leaving comprehensive end-to-end human-LLM collaboration largely unexplored. In this paper, we introduce CoWriter, a proactive agentic scheme that adapts expert human (co-)authoring methodologies from cognitive science to flexibly steer the entire writing workflow while actively encouraging the user to engage. In an exploratory user study, compared to a standard LLM baseline, authors using CoWriter better expressed their perspectives and maintained a higher sense of document ownership, supported quantitatively by $2.2\times$ more successful agent engagements. Furthermore, external reader judges rated the resulting texts higher in "human touch" qualities like storytelling and integrating unique personal experiences. Overall, our results demonstrate that proactively engaging users through established human practices is beneficial for effective LLM-supported co-authoring, providing useful methodologies, techniques and insights for future research on collaborative agents.
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -4201,7 +4201,7 @@
 - 2026-10-22, **EBV-CAN: Vision--Language Grounding for Contact-Aided Endoscope Navigation**, Chi Kit Ng et.al., Paper: [@2610.30786](http://arxiv.org/abs/2610.30786)
 > **Abstract:** Flexible endoscopes exploit structural compliance to traverse narrow lumens, pipes, and cavities, where navigation involves distributed environmental contact. This compliance makes tip motion depend on the evolving support configuration. We present external bird's-eye-view contact-aided navigation (EBV-CAN), a vision-language policy that combines one initial global static bird's-eye image with evolving endoscopic observations and motor state. Three supervised semantic queries locate the tip, next waypoint, and instructed target on the cached global image; their residual representations predict bending and insertion commands. We introduce the Vision-Language Contact-Aided (VLCA) dataset, linking 517 demonstrations and 75k action samples to 958k spatial entries and 93k remaining-route records. On 50 held-out episodes, tip-coordinate and waypoint localization reach 97.5% and 94.8%. Swapping the target instruction under identical observations changes target attention and motor output across 17 dual-target episodes. Across 1,920 physical trials of eight policies trained under a shared protocol, EBV-CAN achieves 183/240 successes (76.25%) under automatic blue-area scoring. Gated recurrent unit behavior cloning (GRU-BC) achieves the lowest matched-task offline mean absolute error (MAE), 0.056, and 1/240 physical successes, establishing distinct rankings for action imitation and task completion. Successful multi-guide executions and representative failures connect spatial progress, steering transitions, and visibility to physical navigation.
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -6244,7 +6244,7 @@
 - 2026-10-21, **Self-Distilling Future Video Representations for World Action Models**, Huiwon Jang et.al., Paper: [@2610.30320](http://arxiv.org/abs/2610.30320)
 > **Abstract:** World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video representations extracted from a single denoising step, avoiding costly iterative denoising required for video generation. This design makes action prediction depend directly on the quality of these future representations. In this paper, we introduce Future REpresentation learning via self-Distillation with temporal context (FRED), a framework that trains WAMs to improve the quality of future video representations from noise in a single denoising step. Specifically, FRED uses self-distillation to predict future representations from noise, using representations extracted from ground-truth future observations as targets. We further condition the video model on historical observations, providing temporal context for predicting future representations better. Across diverse real-world manipulation scenarios, FRED consistently outperforms competing WAMs. It achieves particularly large gains on long-horizon and out-of-domain tasks under zero-shot environment generalization, and substantially improves human-to-robot skill transfer, reaching 50.0% task success on tasks absent from robot training data and demonstrated only in human videos, compared with 19.4% for the best competing WAM.
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -7413,7 +7413,7 @@
 - 2026-10-20, **Pair-Free Coarse-to-Real Video Generation via Real-to-Coarse Image Supervision**, Gonzalo Gómez-Nogales et.al., Paper: [@2610.28954](http://arxiv.org/abs/2610.28954)
 > **Abstract:** Coarse-to-real (C2R) video generation converts coarse animation, simulation, or game-rendered videos into photorealistic videos while preserving scene layout, camera motion, and dynamics. Training such models requires aligned (coarse, realistic) video pairs, which are expensive to create and confine prior systems to narrow synthetic domains. We exploit a simple asymmetry: paired videos are hard to obtain, but paired real-to-coarse images are easy to construct with existing editing and 3D reconstruction tools. Using these image pairs, we train the DINO-R2C model to transfer realistic images to coarse images in DINO feature space, and apply it frame-wise to ordinary real videos to synthesize pseudo-coarse videos. The C2R# model then learns to generate each real video from its pseudo-coarse counterpart, free from needing (coarse, realistic) video pairs. At inference, the DINO-R2C model is discarded and actual coarse videos drive the C2R# model directly. Thus, our pair-free training scales with any real-video corpora rather than with paired synthetic videos. We will release the model and project webpage at https://gonzalognogales.github.io/coarse2real-sharp/.
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -8272,7 +8272,7 @@
 - 2026-10-21, **Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives**, Jingyi Xiang et.al., Paper: [@2610.30438](http://arxiv.org/abs/2610.30438)
 > **Abstract:** Tactile sensing provides robots with direct access to physical interactions at the contact interface, making it a critical modality for robust and dexterous manipulation. Over the past several decades, tactile-based manipulation research has evolved from mechanics-driven approaches, which explicitly interpret tactile signals through contact mechanics and task-specific reasoning, to data-driven approaches that learn tactile representations and manipulation policies directly from data. This paper reviews the development of tactile-based manipulation from these two complementary perspectives. We first introduce the fundamentals of tactile sensing, and then review, from a mechanics-driven perspective, how those signals form manipulation-relevant state representations and subsequently influence the robot action. We then examine the recent advances in data-driven tactile manipulation, covering imitation learning, reinforcement learning, vision-language-action models, and predictive models. Finally, we discuss open challenges and future opportunities toward scalable, generalizable, and robust tactile-enabled robotic systems.
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -8351,7 +8351,7 @@
 - 2026-10-16, **Semantic-Critical Regions for Video-to-Audio Generation**, Yun Fang et.al., Paper: [@2610.23021](http://arxiv.org/abs/2610.23021)
 > **Abstract:** In real-world videos, sound events are often associated with localized and fine-grained visual cues, such as object motion, object-part dynamics, contact events, and interactions between objects. Existing video-to-audio (V2A) methods employ implicit conditioning based on global visual representations or explicit control derived from temporal and spatial cues. However, subtle sound-producing and sound-indicative interactions remain insufficiently captured, leaving room for more precise visual conditioning of sound-event semantics and temporal dynamics. Motivated by this observation, we refer to regions containing such sound-relevant visual evidence as Semantic-Critical Regions (SCRs) and introduce SCR-V2A, a V2A generation framework that explicitly localizes and encodes SCRs as fine-grained visual guidance for audio generation. Specifically, we first identify SCRs through sound-related visual localization. We then transform the localized regions into a control representation through adapter-based dual visual encoding, which jointly captures global visual context and fine-grained sound-relevant evidence. The representation is used to condition a downstream audio generation model. Experiments on both in-domain and out-of-domain benchmarks demonstrate that SCR-V2A achieves strong performance in distribution matching and audio quality while remaining competitive in cross-modal alignment and requiring few trainable parameters. These results highlight the value of prioritizing fine-grained, sound-relevant visual regions for V2A generation.
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -8518,7 +8518,7 @@
 - 2026-10-16, **OrTeN: Neural Inverse Graphics for Joint Terrain and Line-scan Camera Trajectory Reconstruction**, Josef Biberstein et.al., Paper: [@2610.24075](http://arxiv.org/abs/2610.24075)
 > **Abstract:** Digital terrain maps (DTMs) are used for landing site selection, terrain-relative navigation, and geological analysis in planetary exploration. Existing state-of-practice reconstruction techniques for creating DTMs from satellite imagery use multi-view stereo, requiring complex pipelines for dealing with camera error, changing illumination, and images with limited disparity. This work introduces Orbital Terrain Networks (OrTeN), a DTM construction method that uses neural inverse rendering to jointly optimize a textured height map and orbital camera corrections from line-scan satellite images. OrTeN operates directly on calibrated line-scan images with pixel values expressed as radiance factor (I/F) and corrects both broad trajectory pose inconsistencies and high-frequency pointing jitter jointly with surface reconstruction during training. Surface-projected patch normalized cross-correlation (NCC) enforces consistency between observations of the same terrain, refining an initial rough reconstruction. A semi-empirical reflectance model and shadow rendering are used to fit surface appearance from multi-date imagery with differing solar illumination. OrTeN requires only calibrated line-scan images and initial camera poses and does not use any structural priors including ranging/depth measurements or initial rough DTMs. OrTeN is evaluated on four planetary imagery datasets. Aligned terrain RMSEs are 2.35 m at Jezero Crater, 2.82 m at Gale Crater, 16.18 m at Olympus Mons, and 0.43 m at McGetchin Crater.
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -8545,7 +8545,7 @@
 - 2026-10-19, **Neural Controlled Directional Frame Generation for Sprite Animation**, Kenneth Alonso et.al., Paper: [@2610.27253](http://arxiv.org/abs/2610.27253)
 > **Abstract:** Sprite-based animation remains prevalent in video game development, but production workflows require capabilities beyond traditional in-betweening. While existing neural interpolation methods can generate intermediate frames, animators also need forward extrapolation to predict motion continuations and backward extrapolation for editing and reverse-engineering existing sprite sheets. Current video generation models either operate on natural video content with stochastic diffusion sampling incompatible with production requirements, or focus exclusively on interpolation without addressing extrapolation tasks. We present a deep learning approach for controlled directional frame generation in sprite animation using three specialized expert models that share identical U-Net encoder-decoder architectures and several domain-specific modifications, including RGBA-aware processing, multi-scale flow refinement, pixel-shuffle upsampling, and alpha-gated blending. Each model is trained on different temporal orderings of the same curated dataset: previous (frames 2,3>1), middle (frames 1,3>2), and next (frames 1,2>3). We demonstrate that only 280 carefully curated sprite triplets enable effective training for all three directional tasks without requiring massive generic datasets. Evaluation on 42 test triplets using the FLIP metric shows that all three models achieve comparable quality--previous (0.26), middle (0.26), and next (0.27)--with no significant degradation for extrapolation versus interpolation, outperforming general-purpose baselines by 17-57%. With deterministic single-pass generation and compact model, our method provides the first practical solution for controllable any-position frame generation specifically tailored for pixel art sprite animation workflows, validating that quality-over-quantity data curation enables specialized deep learning for niche visual domains.
 
-<p align=right>(<a href=#updated-on-20261024>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261025>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors
