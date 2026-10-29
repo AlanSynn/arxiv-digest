@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.28
+## 📚 Updated on 2026.10.29
 
 <details>
   <summary>Table of Contents</summary>
@@ -372,7 +372,7 @@
 - 2026-10-20, **PhaseBreak: Proactive Temporal Protection against Unauthorized Image-to-Video Animation**, Jiashu Zhang et.al., Paper: [@2610.33070](http://arxiv.org/abs/2610.33070)
 > **Abstract:** Image-to-Video (I2V) diffusion models can animate a single portrait or photograph, enabling shared images to be repurposed for motion synthesis without the subject's authorization. We study proactive visual protection against such use: before an image is released, its owner applies a bounded perturbation that preserves the sharing workflow but disrupts downstream motion generation. Existing spectral disruption objectives globally attenuate temporal representations and therefore provide limited control over subtle or spatially localized motion. Our key idea is that generated dynamics depend not only on temporal feature strength, but also on the order in which feature events occur. We propose PhaseBreak, a white-box spectral retiming protection method that matches intermediate denoiser features to a constrained temporal rearrangement of their clean counterparts. PhaseBreak operates along the true temporal axis and uses a subject-aware mask to confine the protective perturbation to the depicted subject. Evaluations on Stable Video Diffusion and DynamiCrafter show that protected images induce greater short-term motion variation and lower temporal regularity, impeding stable motion customization from the released image.
 
-<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -429,7 +429,7 @@
 - 2026-10-22, **Distributed Swarm Morphogenesis with Neural Cellular Automata**, Ray Verma et.al., Paper: [@2610.31900](http://arxiv.org/abs/2610.31900)
 > **Abstract:** Swarm morphogenesis requires robots to assemble desired shapes through local interactions. We present a modular framework integrating neural cellular automata (NCA) with existing site assignment and collision-aware control. Within this framework, we introduce a decentralized attachment-site discovery mechanism. Robots already in the formation update and share local NCA states to identify new attachment sites, enabling progressive growth without a predefined list of sites during deployment. To bridge the mismatch between conventional NCA growth and gradual physical assembly, we additionally propose offline sparse-retention fine-tuning that simulates partial attachment, together with a false-positive loss that penalizes invalid site activations. Simulations demonstrate formation of diverse lattice morphologies, scaling to several hundred robots, and substantial improvements in morphology accuracy from the proposed fine-tuning. Experiments with Crazyflie quadrotors validate the integrated execution pipeline using robot-relative observations reconstructed from external tracking.
 
-<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -546,7 +546,7 @@
 - 2026-10-26, **The CAPED Framework: Characterizing User Skills in Chart Authoring through the Lens of Tasks and Tools**, Bongshin Lee et.al., Paper: [@2610.34652](http://arxiv.org/abs/2610.34652)
 > **Abstract:** In this paper, we introduce a new framework for characterizing the user skills required for chart authoring. Despite growing attention to authoring systems, we lack a conceptual framework that characterizes the diverse and multifaceted skills involved and helps identify opportunities for system design and development. Our initial investigation revealed that skill is a complex and elusive concept, and that existing theories on skills from other disciplines are too high-level to capture the importance of tasks and tools in data visualizations. To address this gap, we formulate the CAPED framework that characterizes skill as the ability to create a chart involving five dimensions pertinent to tasks and tools: input data, output chart, paradigm, abstraction, and expression. We demonstrate the framework's descriptive power by highlighting different skills involved in similar authoring situations and identifying the types of knowledge associated with chart authoring. We further present examples illustrating how the framework can be used to identify new research opportunities in supporting users with varying skills.
 
-<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -4423,7 +4423,7 @@
 - 2026-10-26, **Training-Free Inference Acceleration for Video Large Language Models: Methods, Trade-offs, and Evaluation**, Yuqi Li et.al., Paper: [@2610.36327](http://arxiv.org/abs/2610.36327)
 > **Abstract:** Video Large Language Models (VLMs) have demonstrated strong capabilities in video understanding and reasoning, but processing long visual sequences incurs substantial computational, latency, and memory overhead. This survey examines training-free inference acceleration, focusing on reducing inference costs while preserving task-relevant spatiotemporal evidence. We organize existing methods by their intervention stages in the inference pipeline, covering input, visual encoding, projector, prefill, and decoding. Post-training quantization (PTQ) is discussed separately as a cross-stage extension with varying calibration requirements. We analyze how intervention position affects evidence preservation and computational savings, and why local efficiency improvements may not translate into end-to-end acceleration. We complement this analysis with quantitative evidence from prior studies and our own experiments under a shared evaluation setting to assess accuracy-latency trade-offs.
 
-<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -6554,7 +6554,7 @@
 - 2026-10-26, **Rollback: Experience Backtracking in World Models for Policy Improvement**, Jiayi Luo et.al., Paper: [@2610.36068](http://arxiv.org/abs/2610.36068)
 > **Abstract:** Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Rollback, a policy improvement paradigm that turns world models from passive simulators into counterfactual engines: it rolls back to critical decision points, branches into alternative actions, and contrasts their outcomes to attribute success to individual decisions. This concentrates imagination where it matters most and distills counterfactual outcomes into fine-grained, action-level supervision without a separately learned value model. We build a scalable training system that unifies distributed world-model search with asynchronous real-robot execution, forming a self-reinforcing cycle: real-world experience continually sharpens the world model, and a sharper world model in turn drives further policy improvement. We term the world-model side of this cycle test-time physics grounding, a capability that hand-built physics simulators lack: while the world model serves as the training environment, real transitions from the policy it trains correct its dynamics through a lightweight LoRA pipeline. Experiments on three challenging real-world tasks show that Rollback improves success rates over the strongest baseline by an absolute 10.67%, 11.11%, and 11.85% on block extraction, ball tossing, and tabletop curling, respectively, while achieving more stable improvement throughout training. Although initialized from teleoperated demonstrations far below human level, Rollback surpasses the average success rate of human players on both ball tossing and tabletop curling within 8 hours of training.
 
-<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -7801,7 +7801,7 @@
 - 2026-10-26, **Any3R: Feedforward 3D Reconstruction from Any Camera Type**, Jingong Chen et.al., Paper: [@2610.36150](http://arxiv.org/abs/2610.36150)
 > **Abstract:** Geometry foundation models recover camera poses and dense geometry from a set of images with a feed-forward network, but they expect pinhole images. That assumption is inside the backbone too: the positional encoding and the training loss both bind an image position to a direction in space, and both depend on the lens. We condition both on the dense ray field, the unit direction through every pixel, which describes any central camera without a lens type, distortion coefficients or a bound on field of view. Angular coordinates give the rotary encoding the measured ray angle of each patch, evaluated per view, and solid-angle weighting scales the point loss by the area each pixel covers on the sphere, so neither the encoding nor the supervision depends on the lens. Any3R is therefore a feed-forward model that takes any central camera, and is robust to mixing many camera types per scene, with no retraining per lens. On a benchmark of thirteen central cameras across three datasets, where every method reconstructs with its own predicted camera poses, it is the most consistently accurate method. Any3R enables scalable 3D reconstruction from heterogeneous crowdsourced and archival imagery collections sourced across diverse camera types. Project page: https://jingong-chen.github.io/Any3R/
 
-<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -8704,7 +8704,7 @@
 - 2026-10-27, **RoboAuto: Autonomous Robot Program Search through Multi-Level Physical Understanding**, Buzhao Liu et.al., Paper: [@2610.36533](http://arxiv.org/abs/2610.36533)
 > **Abstract:** Recently, LLM-based autonomous agents have shown strong capabilities in iteratively generating, evaluating, and refining executable solutions. In robotic manipulation, Code-as-Policy lets these agents search over modular and editable robot programs. However, effective program search requires physical understanding: agents must understand how objects can be manipulated, how scene geometry constrains actions, and why interactions succeed or fail. Existing methods rely mainly on execution feedback for program refinement, often leaving these physical questions unresolved. We introduce RoboAuto, a framework for robot program search that explicitly organizes physical understanding at the object, scene, and interaction levels through three components. First, a hierarchical knowledge base combines executable skills with object-centric knowledge of affordances, spatial relations, and action effects, learned from embodied data and online task solving. Second, scene grounding connects this knowledge to the current environment by identifying relevant objects and resolving action-critical quantities. Third, multi-stage planning with self-designed experiments checks whether each stage produces its expected physical effects and actively tests competing hypotheses to resolve physical uncertainties. RoboAuto achieves superior performance across five benchmark families, attaining an 89.1% success rate on short-horizon LIBERO-PRO tasks and more than twice the mean success rate of ASPIRE on LIBERO-PRO Long and LIBERO-Plus. It also outperforms ASPIRE and $π_{0.5}$ on three challenging long-horizon real-robot tasks requiring precise manipulation. We further show that the knowledge base transfers across simulators and embodiments, and that program search performance scales with its size. Project page: https://roboauto-ai.github.io/
 
-<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -8789,7 +8789,7 @@
 - 2026-10-27, **TAC2: Timestamped Audio Captioning as composable functions**, Swapnil Bhosale et.al., Paper: [@2610.36568](http://arxiv.org/abs/2610.36568)
 > **Abstract:** Real-world audio applications require precise, queryable representations grounded in physical time. Yet modern Large Audio-Language Models (LALMs) increasingly favor conversational generation, producing free-form descriptions that conflate acoustic perception with higher-level reasoning and lack precise temporal grounding. We introduce TAC2, a foundation model that casts timestamped audio captioning as composable functions to construct granular, speaker-attributed acoustic timelines directly from in-the-wild audio. To avoid prohibitively expensive manual annotation, we programmatically fuse complementary predictions from specialized weak teachers through time-registered IoU matching. We model the resulting multi-granularity schema of timestamped events, speaker turns, and fine-grained speech attributes using an Instruction-Input-Output (IIO) completion format, in which each task is a function of the audio, an instruction, and an optional input. A single call decodes the full description autonomously, while composing calls lets earlier outputs or external priors, such as a reference transcript, condition later ones. We further extend TAC2 with expressive speech attributes to obtain TAC2-S, using parameter-efficient specialists to elicit latent paralinguistic capabilities from the pre-trained backbone and distill them into a unified model. We validate the resulting representation in two complementary settings. Paired with frozen text-only LLMs, it yields strong spoken audio understanding across diverse reasoning backends, demonstrating the utility of decoupling fine-grained acoustic perception from downstream reasoning. Used as paired supervision for text-to-audio generation, it supports semantically and temporally grounded reconstruction, together with explicit zero-shot control over event timing, speaker attributes, and word-level emphasis.
 
-<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -8964,7 +8964,7 @@
 - 2026-10-27, **ActiveAlign: Aligning Egocentric Manipulation via Active Perception**, Ri-Zhao Qiu et.al., Paper: [@2610.36859](http://arxiv.org/abs/2610.36859)
 > **Abstract:** Real-to-Sim-to-Real (Real2Sim2Real) enables structured world representations for planning, interpretability, and safe execution. Most existing approaches rely on passive perception, which creates real2sim gaps due to imperfect observation. Inspired by how humans perceive actively through actions, we propose ActiveAlign, a framework that leverages active perception to align the Real2Sim2Real gap from interactions. ActiveAlign introduces two complementary modules: (i) ActiveAlign-Waving, which performs hand-eye calibration by exploiting active hand motions and differentiable rendering, and (ii) ActiveAlign-Touching, which refines object alignment through tactile feedback to achieve millimeter-level precision. Together, these capabilities enable strong real2sim alignment. We demonstrate that ActiveAlign-Waving can be used to curate simulation environments for open-sourced uncalibrated robot manipulation datasets, and demonstrate on a real Unitree G1 robot that ActiveAlign enables fine manipulation of millimeter-scale objects such as pressing buttons and moving sliders.
 
-<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -8991,7 +8991,7 @@
 - 2026-10-19, **Neural Controlled Directional Frame Generation for Sprite Animation**, Kenneth Alonso et.al., Paper: [@2610.27253](http://arxiv.org/abs/2610.27253)
 > **Abstract:** Sprite-based animation remains prevalent in video game development, but production workflows require capabilities beyond traditional in-betweening. While existing neural interpolation methods can generate intermediate frames, animators also need forward extrapolation to predict motion continuations and backward extrapolation for editing and reverse-engineering existing sprite sheets. Current video generation models either operate on natural video content with stochastic diffusion sampling incompatible with production requirements, or focus exclusively on interpolation without addressing extrapolation tasks. We present a deep learning approach for controlled directional frame generation in sprite animation using three specialized expert models that share identical U-Net encoder-decoder architectures and several domain-specific modifications, including RGBA-aware processing, multi-scale flow refinement, pixel-shuffle upsampling, and alpha-gated blending. Each model is trained on different temporal orderings of the same curated dataset: previous (frames 2,3>1), middle (frames 1,3>2), and next (frames 1,2>3). We demonstrate that only 280 carefully curated sprite triplets enable effective training for all three directional tasks without requiring massive generic datasets. Evaluation on 42 test triplets using the FLIP metric shows that all three models achieve comparable quality--previous (0.26), middle (0.26), and next (0.27)--with no significant degradation for extrapolation versus interpolation, outperforming general-purpose baselines by 17-57%. With deterministic single-pass generation and compact model, our method provides the first practical solution for controllable any-position frame generation specifically tailored for pixel art sprite animation workflows, validating that quality-over-quantity data curation enables specialized deep learning for niche visual domains.
 
-<p align=right>(<a href=#updated-on-20261028>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261029>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

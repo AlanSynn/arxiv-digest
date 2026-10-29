@@ -174,7 +174,3 @@
 | 2026-10-15 | **SUPRA-TEX: 3D Generation with Super-Aligned Texture** | Neural Rendering & Physics Simulation | 0.67 | relightable | [@2610.22352](http://arxiv.org/abs/2610.22352) | null |
 | 2026-10-15 | **Compression of Uniformly Distributed Unit Quaternions** | Character Motion Synthesis & Animation | 0.33 | skeletal animation | [@2610.22052](http://arxiv.org/abs/2610.22052) | null |
 | 2026-10-15 | **SAMS: A Structured Graph Framework for Securing Additive Manufacturing Systems** | Computational Design, Mechanism & Fabrication | 0.25 | 3D printing | [@2610.22741](http://arxiv.org/abs/2610.22741) | null |
-| 2026-10-14 | **DreamHMR: From Video Generation to Human Motion Modeling via Structural Focusing** | Character Motion Synthesis & Animation | 1.00 | human motion | [@2610.20124](http://arxiv.org/abs/2610.20124) | null |
-| 2026-10-14 | **OmniPoser: Flexible Human Motion Recovery in the Wild with Masked Flow Matching** | Character Motion Synthesis & Animation | 1.00 | human motion | [@2610.19857](http://arxiv.org/abs/2610.19857) | null |
-| 2026-10-14 | **Time-JEPA: Grounding Video World Models with Physical Time Series** | Character Motion Synthesis & Animation | 0.83 | human motion | [@2610.23982](http://arxiv.org/abs/2610.23982) | null |
-| 2026-10-14 | **VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting** | Neural Rendering & Physics Simulation | 0.33 | inverse rendering | [@2610.19847](http://arxiv.org/abs/2610.19847) | null |
