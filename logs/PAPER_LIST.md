@@ -170,6 +170,3 @@
 | 2026-10-18 | **DragonMoCap: Monocular Video-based Motion Capture for Diverse Dragon Topologies** | Character Motion Synthesis & Animation | 0.67 | motion capture | [@2610.25437](http://arxiv.org/abs/2610.25437) | null |
 | 2026-10-17 | **MOMO: Human Motion from Moving Sounds** | Character Motion Synthesis & Animation | 1.00 | human motion, character animation, motion generation, motion diffusion | [@2610.24522](http://arxiv.org/abs/2610.24522) | null |
 | 2026-10-17 | **Directionally Factorized Illumination with Spherical Harmonic Rotation** | Neural Rendering & Physics Simulation | 0.33 | neural rendering | [@2610.24811](http://arxiv.org/abs/2610.24811) | null |
-| 2026-10-16 | **ULIFLOW: Unified Latent Human-Object Interaction Flow** | Character Motion Synthesis & Animation | 0.83 | human motion | [@2610.24286](http://arxiv.org/abs/2610.24286) | null |
-| 2026-10-16 | **Semantic-Critical Regions for Video-to-Audio Generation** | Narrative & Long-form Audio | 0.50 | audio generation | [@2610.23021](http://arxiv.org/abs/2610.23021) | null |
-| 2026-10-16 | **OrTeN: Neural Inverse Graphics for Joint Terrain and Line-scan Camera Trajectory Reconstruction** | Neural Rendering & Physics Simulation | 0.33 | inverse rendering | [@2610.24075](http://arxiv.org/abs/2610.24075) | null |
