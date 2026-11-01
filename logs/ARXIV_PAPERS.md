@@ -3,21 +3,21 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.10.31
+## 📚 Updated on 2026.11.01
 
 <details open>
-<summary>📑 Table of Contents — 2026-10-31</summary>
+<summary>📑 Table of Contents — 2026-11-01</summary>
 
 **By category**
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (21)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (20)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (31)
 - [World Models & Generative Video](#world-models--generative-video) (37)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (3)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (5)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (33)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (31)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (6)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (5)
 - [Narrative & Long-form Audio](#narrative--long-form-audio) (4)
 
 </details>
@@ -205,7 +205,7 @@
 |**2026-10-28**|**ETA-Motion: Efficient Topology-Agnostic Motion Diffusion via Sparse Joint Learning**|Seoyoung Hwang et.al.|[@2610.38259](http://arxiv.org/abs/2610.38259)|null|
 |**2026-10-28**|**StepControl: Long-Horizon Human Motion Generation from Foot-Contact Schedules**|Hojun Jang et.al.|[@2610.38153](http://arxiv.org/abs/2610.38153)|null|
 
-<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261101>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -239,7 +239,7 @@
 |**2026-10-22**|**Distributed Swarm Morphogenesis with Neural Cellular Automata**|Ray Verma et.al.|[@2610.31900](http://arxiv.org/abs/2610.31900)|null|
 |**2026-10-29**|**SimTO-Robust: Automated Design of Soft Grippers Robust to Grasp Pose and Object Geometry**|Kurt Enkera et.al.|[@2610.39560](http://arxiv.org/abs/2610.39560)|null|
 
-<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261101>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -304,7 +304,7 @@
 |**2026-10-28**|**StreamStudio: Exploring Video Authoring with Streaming Autoregressive Generation**|Boyu Li et.al.|[@2610.38467](http://arxiv.org/abs/2610.38467)|null|
 |**2026-10-28**|**LogicTree: Object-Oriented Writing for Structured Human-AI Academic Authoring**|Jiajun Zhu et.al.|[@2610.38136](http://arxiv.org/abs/2610.38136)|null|
 
-<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261101>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -2278,7 +2278,7 @@
 |**2026-10-29**|**Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning**|Shota Nomura et.al.|[@2610.39451](http://arxiv.org/abs/2610.39451)|null|
 |**2026-10-29**|**Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory**|Kai Sheng et.al.|[@2610.39446](http://arxiv.org/abs/2610.39446)|null|
 
-<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261101>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -3371,7 +3371,7 @@
 |**2026-10-27**|**Self-Supervised Latent Action-Conditioned World Modeling for Time Series**|Chia-Han Kuo et.al.|[@2610.37963](http://arxiv.org/abs/2610.37963)|null|
 |**2026-10-27**|**When More Planning Hurts: Learned Planners for World Models**|Josef Chen et.al.|[@2610.37891](http://arxiv.org/abs/2610.37891)|null|
 
-<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261101>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -4010,7 +4010,7 @@
 |**2026-10-27**|**Efficacy of Monocular Depth Estimation in Lunar Environments**|Michael W. Lanighan et.al.|[@2610.38080](http://arxiv.org/abs/2610.38080)|null|
 |**2026-10-27**|**GOFish: Full Field-of-View Gaussian Splatting and Mesh Extraction**|Allen Tu et.al.|[@2610.37818](http://arxiv.org/abs/2610.37818)|null|
 
-<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261101>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -4480,7 +4480,7 @@
 |**2026-10-27**|**Echo: Scaling Visual Reinforcement Learning with Off-policy Experience**|Gagan Khandate et.al.|[@2610.37865](http://arxiv.org/abs/2610.37865)|null|
 |**2026-10-27**|**DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks**|Anas Houssaini et.al.|[@2610.37799](http://arxiv.org/abs/2610.37799)|null|
 
-<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261101>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -4528,7 +4528,7 @@
 |**2026-10-27**|**TAC2: Timestamped Audio Captioning as composable functions**|Swapnil Bhosale et.al.|[@2610.36568](http://arxiv.org/abs/2610.36568)|null|
 |**2026-10-28**|**A Tutorial on Generative Models for Music Audio**|Mateusz Modrzejewski et.al.|[@2610.38252](http://arxiv.org/abs/2610.38252)|null|
 
-<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261101>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -4620,7 +4620,7 @@
 |**2026-10-26**|**SceneAgent: An Agentic Pipeline from 3D and 4D Captures to Simulation Environments**|Luke Hollis et.al.|[@2610.34745](http://arxiv.org/abs/2610.34745)|null|
 |**2026-10-27**|**ActiveAlign: Aligning Egocentric Manipulation via Active Perception**|Ri-Zhao Qiu et.al.|[@2610.36859](http://arxiv.org/abs/2610.36859)|null|
 
-<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261101>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -4639,7 +4639,7 @@
 |**2026-10-19**|**Neural Controlled Directional Frame Generation for Sprite Animation**|Kenneth Alonso et.al.|[@2610.27253](http://arxiv.org/abs/2610.27253)|null|
 |**2026-10-28**|**Decompose, Don't Expand: Capability-Independent AI Systems by Construction**|Tejaswi Gowda et.al.|[@2610.38144](http://arxiv.org/abs/2610.38144)|null|
 
-<p align=right>(<a href=#updated-on-20261031>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261101>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

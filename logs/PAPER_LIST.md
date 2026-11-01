@@ -168,5 +168,3 @@
 | 2026-10-19 | **Remote Expert Evaluation of Tabletop Avatar Gaze Control in Asymmetric Multi-Scale MR--VR Collaboration** | Sketch-based & Creative HCI Tools | 0.33 | participatory design | [@2610.26360](http://arxiv.org/abs/2610.26360) | null |
 | 2026-10-18 | **Vision as Proprioception: Estimating Humanoid Robot Pose from Video** | Character Motion Synthesis & Animation | 0.83 | human motion | [@2610.25288](http://arxiv.org/abs/2610.25288) | null |
 | 2026-10-18 | **DragonMoCap: Monocular Video-based Motion Capture for Diverse Dragon Topologies** | Character Motion Synthesis & Animation | 0.67 | motion capture | [@2610.25437](http://arxiv.org/abs/2610.25437) | null |
-| 2026-10-17 | **MOMO: Human Motion from Moving Sounds** | Character Motion Synthesis & Animation | 1.00 | human motion, character animation, motion generation, motion diffusion | [@2610.24522](http://arxiv.org/abs/2610.24522) | null |
-| 2026-10-17 | **Directionally Factorized Illumination with Spherical Harmonic Rotation** | Neural Rendering & Physics Simulation | 0.33 | neural rendering | [@2610.24811](http://arxiv.org/abs/2610.24811) | null |
