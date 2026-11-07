@@ -3,22 +3,22 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.06
+## 📚 Updated on 2026.11.07
 
 <details open>
-<summary>📑 Table of Contents — 2026-11-06</summary>
+<summary>📑 Table of Contents — 2026-11-07</summary>
 
 **By category**
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (13)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (11)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (29)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (3)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (5)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (28)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (30)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (9)
-- [Narrative & Long-form Audio](#narrative--long-form-audio) (6)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (8)
+- [Narrative & Long-form Audio](#narrative--long-form-audio) (5)
 
 </details>
 
@@ -214,7 +214,7 @@
 |**2026-11-05**|**REACT: Towards Real-Time Completion of Skeletal Motion Signals**|P. de Clermont Gallerande et.al.|[@2611.08301](http://arxiv.org/abs/2611.08301)|null|
 |**2026-11-05**|**IMUDINO: Self-distilled Foundation Model for Inertial Sensing**|Zhoutong Ye et.al.|[@2611.07437](http://arxiv.org/abs/2611.07437)|null|
 
-<p align=right>(<a href=#updated-on-20261106>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -250,7 +250,7 @@
 |**2026-11-02**|**Learning Purposeful Co-designs of Bio-inspired Quadrupedal Robots**|Fabio Boekel et.al.|[@2611.02462](http://arxiv.org/abs/2611.02462)|null|
 |**2026-10-30**|**Toolpath Overhang Optimization for the Large-Format 3D Printing of Bespoke Shapes**|Yefan Zhi et.al.|[@2611.00371](http://arxiv.org/abs/2611.00371)|null|
 
-<p align=right>(<a href=#updated-on-20261106>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -317,7 +317,7 @@
 |**2026-11-01**|**Capable but Not Scalable: Requirements and Interaction Costs of Building Multi-View CAD Datasets for Design Research**|Danyal Sarfraz et.al.|[@2611.02108](http://arxiv.org/abs/2611.02108)|null|
 |**2026-11-03**|**OmniScribble: Mixed-Initiative Authoring of Animated Sketches through Inspectable and Repairable AI Decisions**|Hien Trinh et.al.|[@2611.04284](http://arxiv.org/abs/2611.04284)|null|
 
-<p align=right>(<a href=#updated-on-20261106>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -2457,7 +2457,7 @@
 |**2026-11-04**|**MAC-v2: Long-horizon model-based value expansion from pixels**|Kwanyoung Park et.al.|[@2611.07245](http://arxiv.org/abs/2611.07245)|null|
 |**2026-11-04**|**Compositional Unalignment: Auditing Safety in Large Vision-Language Models**|Hong kyu Lee et.al.|[@2611.07216](http://arxiv.org/abs/2611.07216)|null|
 
-<p align=right>(<a href=#updated-on-20261106>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -3635,7 +3635,7 @@
 |**2026-11-05**|**ArtiVidRM: Verifiable Artifact-as-Rubric Reward Modeling for Explicit Quality Articulation in Video Generation**|Caorui Li et.al.|[@2611.07301](http://arxiv.org/abs/2611.07301)|null|
 |**2026-11-05**|**Householder Motion Embedding: Noise Modulation for Motion-Controllable Video Generation**|Tao Jun Lin et.al.|[@2611.07294](http://arxiv.org/abs/2611.07294)|null|
 
-<p align=right>(<a href=#updated-on-20261106>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -4312,7 +4312,7 @@
 |**2026-11-05**|**Georeferenced Cross-View 3D Reconstruction from Ground and Satellite Images**|David G. Shatwell et.al.|[@2611.07575](http://arxiv.org/abs/2611.07575)|null|
 |**2026-11-04**|**Wide View Synthesis from Overlapping Perspective Cameras in Autonomous Driving**|Kaixuan Zhang et.al.|[@2611.07081](http://arxiv.org/abs/2611.07081)|null|
 
-<p align=right>(<a href=#updated-on-20261106>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -4811,7 +4811,7 @@
 |**2026-11-05**|**MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments**|Kenneth Llontop et.al.|[@2611.07417](http://arxiv.org/abs/2611.07417)|null|
 |**2026-11-05**|**An Empirical Study of Reinforcement Learning for Keypoint Positioning of Deformable Linear Objects**|Vinay Rodrigues et.al.|[@2611.07261](http://arxiv.org/abs/2611.07261)|null|
 
-<p align=right>(<a href=#updated-on-20261106>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -4861,7 +4861,7 @@
 |**2026-10-30**|**MFlowAudio: Efficient Text-to-Audio Synthesis via Mamba-based Stateful Flow Matching**|Hao Dai et.al.|[@2610.41852](http://arxiv.org/abs/2610.41852)|null|
 |**2026-10-30**|**Hierarchical Dual-Graph Retrieval for Long-form Audio Reasoning**|Eunsang Lee et.al.|[@2610.41390](http://arxiv.org/abs/2610.41390)|null|
 
-<p align=right>(<a href=#updated-on-20261106>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -4959,7 +4959,7 @@
 |**2026-11-05**|**PlayGen2: Learning Real-Time Playable Worlds with Explicit 3D State**|Jihai Zhang et.al.|[@2611.07867](http://arxiv.org/abs/2611.07867)|null|
 |**2026-11-05**|**Integrating Learned Priors through Prior-Space Reparameterization for Physically Based Inverse Rendering**|Hun Hwangbo et.al.|[@2611.07573](http://arxiv.org/abs/2611.07573)|null|
 
-<p align=right>(<a href=#updated-on-20261106>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -4979,7 +4979,7 @@
 |**2026-10-28**|**Decompose, Don't Expand: Capability-Independent AI Systems by Construction**|Tejaswi Gowda et.al.|[@2610.38144](http://arxiv.org/abs/2610.38144)|null|
 |**2026-11-05**|**REACT: Towards Real-Time Completion of Skeletal Motion Signals**|P. de Clermont Gallerande et.al.|[@2611.08301](http://arxiv.org/abs/2611.08301)|null|
 
-<p align=right>(<a href=#updated-on-20261106>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors
