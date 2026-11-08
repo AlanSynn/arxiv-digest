@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.07
+## 📚 Updated on 2026.11.08
 
 <details>
   <summary>Table of Contents</summary>
@@ -26,7 +26,7 @@
 - 2026-11-05, **REACT: Towards Real-Time Completion of Skeletal Motion Signals**, P. de Clermont Gallerande et.al., Paper: [@2611.08301](http://arxiv.org/abs/2611.08301)
 > **Abstract:** Tracking user motion in interactive and immersive applications is increasingly common (e.g., video games, XR systems, smartphones). Yet, processing and transmitting human motion data remain critical challenges, as current approaches strongly rely on the quality of the tracked motion signals. In general, affordable motion-capture systems may produce unnatural animations in the presence of calibration errors, occlusions, sensor drift, high-frequency noise, or other artifacts. More specifically, we simulate occlusions and high-frequency noise and propose to mitigate their effects with REACT, an interactive online motion-completion framework operating causally, frame by frame, without look-ahead. REACT is an S4-based autoregressive model that coordinates complementary motion estimates under specific reliability-dependent constraints and exposes several interpretable internal signals. We present a system-level contribution consisting of a structured formulation of interactive motion completion together with a coherent instantiation of this formulation. We evaluate REACT against several causal baselines and architectural variants under varying levels of occlusion severity, and report their respective inference latencies. Our results show that REACT achieves a relevant compromise between reconstruction accuracy, update smoothness, and interactive inference. Finally, we characterize how its fusion behaviour changes under missing input observations.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Character Motion Synthesis & Animation
 
@@ -57,7 +57,7 @@
 - 2026-10-23, **Past as State, Present as Attention: Persistent-State Blockwise Flow Matching for Long-Horizon Co-Speech Motion Generation**, Yi Liu et.al., Paper: [@2610.32373](http://arxiv.org/abs/2610.32373)
 > **Abstract:** Co-speech motion generation remains challenging over long horizons due to the need for temporal coherence and consistent style. Existing methods typically generate long motions segment by segment, either conditioning on a short seed of recent frames, which gradually drifts, or retaining ever-longer explicit histories, which are costly to maintain and hard to learn from limited data. We trace these limitations to a key asymmetry between past and present: past motion carries slowly varying style that should be compactly summarized, whereas the current segment exhibits fast-changing local dynamics that require fine-grained modeling. This asymmetry motivates a simple Past-As-State, Present-as-Attention principle for long-horizon co-speech motion generation. Following this principle, we propose PASPA, which summarizes past history with an inter-block persistent state and models the current segment with intra-block bidirectional self-attention. We instantiate PASPA within a blockwise flow matching framework, with multi-block supervision for effective training over variable histories, prefill-decode state caching for efficient rollout, and hybrid classifier-free guidance for enhanced history and speech conditioning. Extensive public-benchmark experiments show that PASPA achieves state-of-the-art FGD performance and preserves motion style across long-sequence generation.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -120,7 +120,7 @@
 - 2026-11-04, **Compositional Unalignment: Auditing Safety in Large Vision-Language Models**, Hong kyu Lee et.al., Paper: [@2611.07216](http://arxiv.org/abs/2611.07216)
 > **Abstract:** Large vision-language models (LVLMs) are vulnerable to compositional harm: an image and a prompt that are benign in isolation become harmful through the model's cross-modal reasoning. Recent alignment methods report strong scores on compositional safety benchmarks, but an LLM judge only measures observed behavior and cannot reveal how robustly safety is integrated into the model. We argue that un-alignment provides a complementary audit of alignment robustness. We first show that minimal supervised fine-tuning reaches an LLM-judge score comparable to a multi-stage reinforcement-learning pipeline, so similar benchmark scores cannot establish robustness by themselves. We then show that recognition and refusal of compositional harm are decoupled: nine standard direction-finding methods detect compositional harm with up to AUC=0.99, yet ablating the recovered directions either leaves refusal intact or destroys model coherence. We therefore propose CMaG, a training-free un-alignment method for compositional safety. CMaG measures refusal intention with a refusal-versus-compliance log-probability margin, takes its gradient with respect to mid-layer activations, and contrasts it against partially benign pairs to isolate the cross-modal interaction term. A single backward pass over 80 examples yields a direction along which steering monotonically converts refusal into compliance. On Qwen2.5-VL-7B and LLaVA-1.5-7B, CMaG reduces compositional safety scores by up to 65 points while over 98% of outputs remain coherent, outperforming gradient-based baselines; the direction also transfers to text-explicit harm and un-aligns models hardened by defensive training. Compositional safety can thus appear behaviorally strong while remaining fragile to targeted internal intervention. Warning: this paper contains unsafe model outputs, including references to self-harm.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -201,7 +201,7 @@
 - 2026-11-02, **Toward Uncertainty-Aware, Physics-Grounded Human World Models**, Yufei Zhang et.al., Paper: [@2611.03428](http://arxiv.org/abs/2611.03428)
 > **Abstract:** A robot that acts around people needs a world model of the human: a belief over the person's body state and a dynamics model that predicts where that state goes next. This abstract argues that two published components form exactly these two halves, and specifies how to couple them. KNOWN [1] reconstructs the 3D human body while estimating both aleatoric and epistemic uncertainty in real time (11.6 ms per frame); its aleatoric term identifies unreliable observations, its epistemic term identifies inputs from low-density regions of the training data, and refinement driven by the epistemic term reduces the error on such inputs from 81.3 to 70.3 mm. PhysMoP [2] predicts future body configuration by solving the Euler-Lagrange equations of the body with learned dynamics terms, reducing the 80 ms prediction error from 9.6 to 2.1 mm on Human3.6M and from 12.1 to 0.7 mm on 3DPW. We define the interface between the two, propose three mechanisms by which KNOWN's uncertainty enters PhysMoP, and specify an evaluation protocol on in-the-wild video. No new experimental results are reported here.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -212,7 +212,7 @@
 - 2026-10-29, **SimTO-Robust: Automated Design of Soft Grippers Robust to Grasp Pose and Object Geometry**, Kurt Enkera et.al., Paper: [@2610.39560](http://arxiv.org/abs/2610.39560)
 > **Abstract:** Robotic grippers operating in unstructured environments must robustly grasp objects of different shapes and sizes despite perception and positioning errors. Soft grippers that can achieve this robustness through intelligent mechanical design rather than sophisticated control software offer a promising solution. However, no existing computational design framework explicitly optimises soft gripper morphology for robustness across object geometries and grasp poses. We introduce SimTO-Robust, a generalisation of simulation-driven topology optimisation (SimTO) that simulates grasps across multiple objects and poses and aggregates their contact forces to guide gripper morphology optimisation. We generate 6,646 designs and physically evaluate 24 of them alongside 10 specialised SimTO designs, two rigid baseline grippers, and a baseline generalist soft gripper produced using conventional topology optimisation. All 37 grippers are tested in a pick-and-place task involving five feature-rich objects and six grasp poses, with external disturbances of increasing magnitude applied during the task. On average, SimTO-Robust designs complete pick-and-place more reliably than specialised SimTO designs and the rigid baselines. The best SimTO-Robust designs also withstood more of the applied disturbances than any other tested gripper. These results show that incorporating diverse grasp conditions into simulation-driven topology optimisation is a simple and effective approach to improving real-world soft gripper robustness. More broadly, they show that robust robotic grasping can be achieved through intelligent mechanical design rather than sophisticated sensing and control.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -227,7 +227,7 @@
 - 2026-10-26, **The CAPED Framework: Characterizing User Skills in Chart Authoring through the Lens of Tasks and Tools**, Bongshin Lee et.al., Paper: [@2610.34652](http://arxiv.org/abs/2610.34652)
 > **Abstract:** In this paper, we introduce a new framework for characterizing the user skills required for chart authoring. Despite growing attention to authoring systems, we lack a conceptual framework that characterizes the diverse and multifaceted skills involved and helps identify opportunities for system design and development. Our initial investigation revealed that skill is a complex and elusive concept, and that existing theories on skills from other disciplines are too high-level to capture the importance of tasks and tools in data visualizations. To address this gap, we formulate the CAPED framework that characterizes skill as the ability to create a chart involving five dimensions pertinent to tasks and tools: input data, output chart, paradigm, abstraction, and expression. We demonstrate the framework's descriptive power by highlighting different skills involved in similar authoring situations and identifying the types of knowledge associated with chart authoring. We further present examples illustrating how the framework can be used to identify new research opportunities in supporting users with varying skills.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -288,7 +288,7 @@
 - 2026-11-01, **Task-driven sparse-view planar X-ray computed tomography for axial metrology**, Yibin Tian et.al., Paper: [@2611.01537](http://arxiv.org/abs/2611.01537)
 > **Abstract:** Computational imaging can reduce the acquisition burden when the system is designed around task-relevant information rather than complete image recovery. We investigate this framework for sparse-view planar X-ray tomography (XCT) of layered objects, using measurement of the axial termination gap (ATG) of back-drilled printed-circuit-board (PCB) vias as a representative task. Instead of using 3D reconstruction, the proposed method estimates ATG directly from polychromatic projection data through a physics-based sensitivity model. A gated hierarchical estimator first fits ATG together with radiometric perturbations and selectively introduces global geometry and specimen-warp models only when a reduced chi-squared adequacy test and Bayesian information criterion justify the added degrees of freedom. The same low-dimensional perturbation model is incorporated into marginalized Fisher-information analyses, yielding task-specific conditional and calibration-aware Cram'er-Rao bounds. Numerical experiments show that, under a fixed total photon budget, task-driven metrology changes little over 12-64 views, while reconstruction-driven metrology is strongly view-dependent with much larger errors. The direct estimator also follows the expected photon-limited scaling. These results demonstrate a computational sensing strategy in which XCT acquisition, physical modeling, and inference are evaluated according to the quantitative information required by the task rather than for general-purpose volumetric image fidelity.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -353,7 +353,7 @@
 - 2026-10-29, **SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors**, Fnu Aryan et.al., Paper: [@2610.40632](http://arxiv.org/abs/2610.40632)
 > **Abstract:** As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative. To this end, we introduce SymAnt, a novel neuro-symbolic approach that unifies the expressiveness of neural networks with the structured reasoning of scene and knowledge graphs. Given a short video, SymAnt performs a joint-search over both graphs to construct a symbolic context, enabling unified reasoning over spatial relationships, object attributes, affordances, and associated actions. This symbolic context serves as a prior for an iterative refinement process that progressively generates and improves the sequence of future actions. By grounding predictions in symbolic context, SymAnt anticipates long-horizon actions from short observation windows in a parameter-efficient manner, while enabling users to directly edit the underlying knowledge to adjust predictions without further training. Through our experiments, we demonstrate the effectiveness of SymAnt, particularly when only short observation contexts are available, across five diverse datasets: Breakfast, 50 Salads, EPIC-KITCHENS, EGTEA Gaze+, and Assembly101.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -376,7 +376,7 @@
 - 2026-10-23, **Towards Effective and Transferable Physical Camouflage against Multi-View BEV-based 3D Perception in Autonomous Driving**, Linye Lyu et.al., Paper: [@2610.32230](http://arxiv.org/abs/2610.32230)
 > **Abstract:** Modern autonomous driving systems widely adopt multi-view Bird's-Eye-View (BEV) based 3D perception models due to their superior performance. Despite their success, the robustness of these models against adversarial camouflage attacks remains largely unexplored. Existing camouflage attacks primarily target single-view 2D detectors, limiting their effectiveness in multi-view 3D perception settings. To address this gap, we propose BEVCA, a novel adversarial camouflage generation framework tailored for multi-view BEV-based 3D perception. Our framework integrates a BEV-feature-based adversarial loss with a multi-view neural rendering module, enabling effective and transferable camouflage attacks across different models and tasks. Extensive experiments in both digital and physical settings demonstrate that BEVCA outperforms state-of-the-art baselines and exhibits strong robustness under real-world conditions. Our code is available at https://github.com/WAVE-AT-IDEA/BEVCA.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -393,7 +393,7 @@
 - 2026-10-23, **Melody Guidance for Audio Diffusion Models Without Retraining**, Cristobal Andrade et.al., Paper: [@2610.32211](http://arxiv.org/abs/2610.32211)
 > **Abstract:** Controlling melody in audio generation normally requires training a conditional generative model on audio paired with pitch curves or MIDI notes. We instead guide an existing unconditional diffusion model, originally trained without melody inputs, to follow a target melody without retraining or modifying it. During inference, a differentiable pitch detector steers the sampled audio toward the desired pitches, while the diffusion model keeps it close to the distribution of realistic audio learned during training. Our main contribution is a sampling method that balances these two directions, providing melody control while preserving audio quality. To improve stability, we initialize sampling with a simple synthesized version of the target melody rather than pure noise. Experiments on piano, guitar, and singing voice show melody accuracy comparable to conditional models trained specifically for melody control. Our method therefore adds melody control to existing audio diffusion models without requiring paired melody data or task-specific retraining.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

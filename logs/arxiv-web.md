@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.07
+## 📚 Updated on 2026.11.08
 
 <details>
   <summary>Table of Contents</summary>
@@ -394,7 +394,7 @@
 - 2026-11-05, **IMUDINO: Self-distilled Foundation Model for Inertial Sensing**, Zhoutong Ye et.al., Paper: [@2611.07437](http://arxiv.org/abs/2611.07437)
 > **Abstract:** We present IMUDINO, the first foundation model (FM) for inertial sensing to achieve competitive performance across diverse sensing tasks including human activity recognition (HAR), health, motion capture, and odometry. Prior inertial FMs often focus on one subfield of inertial sensing and sometimes underperform state-of-the-art supervised methods (e.g., in HAR), making their scope considerably narrower than FMs for vision and natural language. Moreover, they often require fixed input length and sampling rate, and generalize poorly to unseen sensor locations. To build a general-purpose foundation model for inertial sensing, we adapt the DINO self-supervised learning (SSL) paradigm to inertial data through a set of semantics-preserving motion transformations that simulate variations in motion pattern and sensor setup. For model architecture, we use a plain transformer encoder with frequency-aware positional encoding that natively supports varying input length and sampling rate. This simple setup proved remarkably effective for learning global and dense features generalizable across users, sensor setups, tasks, and, in the case of robot odometry, embodiments. We hope IMUDINO can serve as a backbone for inertial sensing and kickstart the development of general-purpose inertial FMs.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -457,7 +457,7 @@
 - 2026-10-30, **Toolpath Overhang Optimization for the Large-Format 3D Printing of Bespoke Shapes**, Yefan Zhi et.al., Paper: [@2611.00371](http://arxiv.org/abs/2611.00371)
 > **Abstract:** This paper presents a closed curve trimming algorithm for overhang optimization in large-format support-free 3D printing of bespoke manifold shapes. Large-format 3D printing enables efficient fabrication of complex, bespoke shapes. Because of the material properties and surface quality requirements, such shapes are typically printed without support structures and have to be designed as support-free. Most current methods of overhang optimization are limited to certain types of geometry and do not apply to bespoke shapes. Our method directly optimizes sliced toolpath curves with minimal geometric modification. Given an overhang limit, it ensures that all resulting toolpath curves are strictly within the overhang limit while preserving their orientation and preventing intersections. The algorithm is based on curve offsetting and trimming, and is applicable to closed toolpath curves that represent the boundaries of a solid volume.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -582,7 +582,7 @@
 - 2026-11-03, **OmniScribble: Mixed-Initiative Authoring of Animated Sketches through Inspectable and Repairable AI Decisions**, Hien Trinh et.al., Paper: [@2611.04284](http://arxiv.org/abs/2611.04284)
 > **Abstract:** AI-assisted creative tools reduce the effort of authoring content, but delegating creative decisions to AI can make it difficult for authors to understand, correct, or redirect work. We present OmniScribble, a system for animating multi-object sketches that treats object decomposition and motion planning as editable artifacts. Rather than generating animation end-to-end, OmniScribble presents AI proposals at verification checkpoints, where authors can accept, repair, or regenerate them. Both manual and AI-assisted authoring operate on the intermediate representation and rendering pipeline, allowing us to isolate AI delegation. In a within-subject study with eight participants, AI-assisted authoring yielded a median within-participant reduction in completion time of 71.4\%, while perceived control and motion-intent alignment remained high. Interaction traces and interviews show that participants adapted to AI errors by repairing local issues, regenerating mismatches, and accepting proposals. These findings suggest that inspectable, repairable delegation enables generative automation while maintaining control over the outcome.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -4853,7 +4853,7 @@
 - 2026-11-04, **Compositional Unalignment: Auditing Safety in Large Vision-Language Models**, Hong kyu Lee et.al., Paper: [@2611.07216](http://arxiv.org/abs/2611.07216)
 > **Abstract:** Large vision-language models (LVLMs) are vulnerable to compositional harm: an image and a prompt that are benign in isolation become harmful through the model's cross-modal reasoning. Recent alignment methods report strong scores on compositional safety benchmarks, but an LLM judge only measures observed behavior and cannot reveal how robustly safety is integrated into the model. We argue that un-alignment provides a complementary audit of alignment robustness. We first show that minimal supervised fine-tuning reaches an LLM-judge score comparable to a multi-stage reinforcement-learning pipeline, so similar benchmark scores cannot establish robustness by themselves. We then show that recognition and refusal of compositional harm are decoupled: nine standard direction-finding methods detect compositional harm with up to AUC=0.99, yet ablating the recovered directions either leaves refusal intact or destroys model coherence. We therefore propose CMaG, a training-free un-alignment method for compositional safety. CMaG measures refusal intention with a refusal-versus-compliance log-probability margin, takes its gradient with respect to mid-layer activations, and contrasts it against partially benign pairs to isolate the cross-modal interaction term. A single backward pass over 80 examples yields a direction along which steering monotonically converts refusal into compliance. On Qwen2.5-VL-7B and LLaVA-1.5-7B, CMaG reduces compositional safety scores by up to 65 points while over 98% of outputs remain coherent, outperforming gradient-based baselines; the direction also transfers to text-explicit harm and un-aligns models hardened by defensive training. Compositional safety can thus appear behaviorally strong while remaining fragile to targeted internal intervention. Warning: this paper contains unsafe model outputs, including references to self-harm.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -7200,7 +7200,7 @@
 - 2026-11-05, **Householder Motion Embedding: Noise Modulation for Motion-Controllable Video Generation**, Tao Jun Lin et.al., Paper: [@2611.07294](http://arxiv.org/abs/2611.07294)
 > **Abstract:** Diffusion models for video generation have achieved remarkable success, yet precise motion control under explicit user guidance remains challenging. Recent noise-warping methods introduce temporal correlations by warping the noise according to the user-provided motion signal. However, standard spatial warping generally disrupts the noise's i.i.d. Gaussian structure, requiring distribution correction, such as Jacobian-based correction, but at a substantial computational overhead. We propose Householder Motion Embedding (HME), which encodes the motion signal into the noise through a sequence of Householder reflections that together form an orthogonal transformation applied to each location's channel vector. HME exactly preserves the spatial Gaussian structure within each frame while introducing cross-frame correlations that promote temporally consistent video. HME is agnostic to the network architecture and integrates directly into standard video diffusion fine-tuning pipelines. Experiments on different scenarios show that HME matches or outperforms the state of the art, while achieving a 2.7x speedup over noise warping. These results demonstrate that channel-space Householder transformations offer a principled and efficient alternative to noise warping for motion-controllable video generation.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -8545,7 +8545,7 @@
 - 2026-11-04, **Wide View Synthesis from Overlapping Perspective Cameras in Autonomous Driving**, Kaixuan Zhang et.al., Paper: [@2611.07081](http://arxiv.org/abs/2611.07081)
 > **Abstract:** Multi-perspective-camera systems are widely adopted since they provide broad visual coverage for autonomous driving, motivating the synthesis of a unified wide view from spatially separated observations. In this work, we formulate wide view synthesis (WVS), which aims to synthesize a geometrically consistent wide view at a specified virtual viewpoint from multiple perspective cameras. Unlike conventional image stitching, WVS requires reasoning about 3D geometry and visibility to handle depth-dependent parallax and occlusions arising from spatially separated camera centers. While vanilla 3D Gaussian Splatting (3DGS) enables high-fidelity view synthesis, its reliance on per-scene optimization limits its applicability to driving scenes. Furthermore, WVS introduces additional challenges, *e.g.*, peripheral stretching under perspective projection and photometric inconsistencies across cameras. To address these challenges, we propose **Wide-View Gaussian Splatting (WV-GS)**, a feed-forward Gaussian-splatting framework that synthesizes wide views without per-scene optimization. Specifically, we introduce Piecewise Perspective Rendering (PPR) to mitigate peripheral stretching through local perspective projections sharing a common camera center, and Spatial Affine Photometric Modeling (SAPM) to account for camera-dependent photometric variations during training. We further introduce **WideDrive**, a synthetic benchmark providing dense ground-truth wide views and adapt a LiDAR-projected sparse-reference protocol to real-world datasets. Extensive experiments on multiple datasets demonstrate the effectiveness of WV-GS for WVS. Dataset and code will be publicly released.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -9534,7 +9534,7 @@
 - 2026-11-05, **An Empirical Study of Reinforcement Learning for Keypoint Positioning of Deformable Linear Objects**, Vinay Rodrigues et.al., Paper: [@2611.07261](http://arxiv.org/abs/2611.07261)
 > **Abstract:** Deformable linear object (DLO) manipulation is challenging because high-dimensional configurations, nonlinear contact dynamics, and diverse material and geometric properties produce a broad range of object responses that are both difficult to model and data-intensive to learn. This work studies reinforcement learning for planar manipulation of a one-end-grasped DLO, focusing on training efficiency, observation design, robustness, and zero-shot sim-to-real transfer. We compare three Proximal Policy Optimization training stacks and find that the GPU-parallel MuJoCo Playground stack enables faster convergence and more consistent performance than CPU-based alternatives under the same wall-clock budget. Relative keypoint observations and an asymmetric actor-critic formulation further improve learning efficiency. Policies trained with observation noise, delay, domain randomization, and disturbances achieve simulation success rates of 96.4% for single-point tracking, 98.0% for disturbance recovery, and 88.8% for two-point tracking. Using markerless RGB-D keypoint estimation, the policies transfer without real-world fine-tuning, succeeding in 9/10, 10/10, and 8/10 physical trials, respectively.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -9625,7 +9625,7 @@
 - 2026-10-30, **Hierarchical Dual-Graph Retrieval for Long-form Audio Reasoning**, Eunsang Lee et.al., Paper: [@2610.41390](http://arxiv.org/abs/2610.41390)
 > **Abstract:** Large audio language models (LALMs) struggle with long-form audio reasoning, as processing entire recordings often limits to capture query-relevant content distributed across distant segments while incurring substantial computational cost. We introduce AudioHelix, a hierarchical DualGraph framework tailored for LALMs' retrieval-augmented generation (RAG) systems. Unlike existing text-only or non-graph RAG approaches, AudioHelix connects related textual and acoustic evidence across temporally distant segments for multi-hop reasoning. Extensive experiments on TraceAV-Bench, MMAU-Pro, and AudioMarathon demonstrate that AudioHelix consistently outperforms full-audio processing and existing RAG methods. The project site is https://github.com/ewha-mmai/audiohelix.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -9812,7 +9812,7 @@
 - 2026-11-05, **Integrating Learned Priors through Prior-Space Reparameterization for Physically Based Inverse Rendering**, Hun Hwangbo et.al., Paper: [@2611.07573](http://arxiv.org/abs/2611.07573)
 > **Abstract:** Physically based inverse rendering decomposes appearance into materials and illumination, an ambiguous problem for which learned material predictions provide useful prior information. Most existing methods incorporate these cues through auxiliary regularization losses, which alter the optimization objective and require balancing their influence against photometric fitting. We propose a prior-guided material reparameterization that uses the predicted feature relationships to restrict the optimization space while leaving the objective unchanged. We fuse multi-view material predictions onto a mesh and construct a permutohedral lattice in the resulting prior feature space. Surface points with similar predictions share material variables, which are optimized jointly with geometry and illumination using a purely photometric objective. Experiments with two learned predictors on three synthetic benchmarks and Stanford-ORB demonstrate improved material decomposition and relighting. Our method improves relighting PSNR by 1.5-2.5 dB over the strongest evaluated mesh-based baseline on Synthetic4Relight and TensoIR-Synthetic, and outperforms a regularization loss using the same prior in controlled comparisons. We further show that our reparameterization pools noisy photometric gradients, producing updates that are more consistent across sampled views. This consistency enables a shortened joint optimization schedule that takes less than a minute while retaining relighting quality above all evaluated baselines on TensoIR-Synthetic.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -9843,7 +9843,7 @@
 - 2026-11-05, **REACT: Towards Real-Time Completion of Skeletal Motion Signals**, P. de Clermont Gallerande et.al., Paper: [@2611.08301](http://arxiv.org/abs/2611.08301)
 > **Abstract:** Tracking user motion in interactive and immersive applications is increasingly common (e.g., video games, XR systems, smartphones). Yet, processing and transmitting human motion data remain critical challenges, as current approaches strongly rely on the quality of the tracked motion signals. In general, affordable motion-capture systems may produce unnatural animations in the presence of calibration errors, occlusions, sensor drift, high-frequency noise, or other artifacts. More specifically, we simulate occlusions and high-frequency noise and propose to mitigate their effects with REACT, an interactive online motion-completion framework operating causally, frame by frame, without look-ahead. REACT is an S4-based autoregressive model that coordinates complementary motion estimates under specific reliability-dependent constraints and exposes several interpretable internal signals. We present a system-level contribution consisting of a structured formulation of interactive motion completion together with a coherent instantiation of this formulation. We evaluate REACT against several causal baselines and architectural variants under varying levels of occlusion severity, and report their respective inference latencies. Our results show that REACT achieves a relevant compromise between reconstruction accuracy, update smoothness, and interactive inference. Finally, we characterize how its fusion behaviour changes under missing input observations.
 
-<p align=right>(<a href=#updated-on-20261107>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261108>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors
