@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.13
+## 📚 Updated on 2026.11.14
 
 <details>
   <summary>Table of Contents</summary>
@@ -26,7 +26,7 @@
 - 2026-11-05, **REACT: Towards Real-Time Completion of Skeletal Motion Signals**, P. de Clermont Gallerande et.al., Paper: [@2611.08301](http://arxiv.org/abs/2611.08301)
 > **Abstract:** Tracking user motion in interactive and immersive applications is increasingly common (e.g., video games, XR systems, smartphones). Yet, processing and transmitting human motion data remain critical challenges, as current approaches strongly rely on the quality of the tracked motion signals. In general, affordable motion-capture systems may produce unnatural animations in the presence of calibration errors, occlusions, sensor drift, high-frequency noise, or other artifacts. More specifically, we simulate occlusions and high-frequency noise and propose to mitigate their effects with REACT, an interactive online motion-completion framework operating causally, frame by frame, without look-ahead. REACT is an S4-based autoregressive model that coordinates complementary motion estimates under specific reliability-dependent constraints and exposes several interpretable internal signals. We present a system-level contribution consisting of a structured formulation of interactive motion completion together with a coherent instantiation of this formulation. We evaluate REACT against several causal baselines and architectural variants under varying levels of occlusion severity, and report their respective inference latencies. Our results show that REACT achieves a relevant compromise between reconstruction accuracy, update smoothness, and interactive inference. Finally, we characterize how its fusion behaviour changes under missing input observations.
 
-<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
 
 ## Character Motion Synthesis & Animation
 
@@ -65,7 +65,7 @@
 - 2026-10-30, **Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos**, Wendong Bu et.al., Paper: [@2610.41877](http://arxiv.org/abs/2610.41877)
 > **Abstract:** Scaling humanoid motion foundation models is constrained by the scarcity of diverse, robot-executable data and by the difficulty of jointly learning from heterogeneous multimodal inputs while supporting real-time closed-loop control. We present Movens-5M, constructed from raw Internet videos through clip generation, quality filtering, semantic annotation, motion recovery, and physical refinement with humanoid retargeting and execution verification. It contains 15 million human-motion sequences and 5 million physically executable humanoid-motion sequences spanning over 10,000 hours, aligned with text, RGB video, speech, and music. Building on this data, we introduce Movens-Zero, a scalable understanding-generation-execution architecture that supports joint learning across modalities and real-time closed-loop execution. Task-mixed flow-matching training jointly optimizes a single action expert across seven generation tasks, enabling direct motion generation from text, speech, music, and video. Multimodal Real-Time Chunking connects overlapping chunks under continuously updated instructions and robot states for continuous closed-loop execution. We further introduce Movens-Intent, a four-track benchmark with 8,192 expert-verified condition-motion pairs across text, speech, music, and video. Experiments show consistent gains across all four modalities when scaling execution-verified data from 1% to 100% and action-expert capacity from 64M to 911M parameters, while demonstrating that data quality and cross-modal supervision improve generation and execution.
 
-<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -136,7 +136,7 @@
 - 2026-11-11, **How Far Can Frozen Vision-Language Models Go on Event Data? A Training-Free Study on EventBench**, Md Kamrujjaman Mobin et.al., Paper: [@2611.15756](http://arxiv.org/abs/2611.15756)
 > **Abstract:** We present a training-free system for the EBMV @ ECCV 2026 challenge "Event Stream Understanding with EventBench" (General Understanding track), which evaluates vision-language models on five event-camera understanding tasks. We use none of the challenge's training data: our goal is to measure how far off-the-shelf, RGB-pretrained models can go on event data through representation and prompting alone. For four of the five categories (gesture recognition, detailed understanding, causal reasoning, and event OCR) we render event bins as red/ON, blue/OFF frames, select a category-specific subset of bins, stitch them into a single grid image, and query the same frozen Qwen3.5 9B vision-language model with a category-specific prompt for all four tasks. The fifth category, action recognition, feeds every bin directly into the organizers' EventGPT-Plus-2B. The system reaches 62.28% overall accuracy across 2,084 test questions (rank 9/27), led by action recognition and causal reasoning (80.27%, 77.22%) and limited most by gesture recognition and event OCR (54.70%, 34.57%). We visualize test samples from every category together with the exact images the model receives, score six alternative representations against the evaluation server, and analyze the full test set post hoc. That analysis shows that our bounding-box crop almost never tightened around content, so event OCR text reached the model at roughly one fifth of its horizontal resolution, and that detailed-understanding predictions are skewed toward the first two answer options.
 
-<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -217,7 +217,7 @@
 - 2026-11-09, **Building World Models from Intrinsic Motivation**, Reece Keller et.al., Paper: [@2611.13113](http://arxiv.org/abs/2611.13113)
 > **Abstract:** In the absence of extrinsic rewards or task supervision, human behavior is guided by intrinsic motivation---neural signals that drive curiosity, creativity, play, and other essential facets of intelligence. Intrinsic motivation plays an important developmental role in building robust world models that enable generalization and adaptation. Yet existing studies leave open how a broad range of intrinsic motivations interacts with world-model representation learning to support downstream control. This limits our understanding of which intrinsically collected experiences build reusable models. To address these gaps, we integrate 24 intrinsic objectives, including established methods and explicit variants spanning curiosity, entropy, and competency, into a common model-based reinforcement learning framework. We evaluate the world models they build through zero-shot, few-shot, and multi-task control in locomotion, manipulation, and open-ended gaming environments, using three representation-learning strategies: observation reconstruction, latent prediction, and redundancy reduction. Curiosity-driven exploration with observation reconstruction yields the strongest aggregate family profile, although the best individual pairing depends on the experiment. In compositional vision-based tasks, intrinsic motivation derived from both episodic and lifelong novelty---providing a complementary memory to the world model's generic recurrent state---achieves the best zero-shot transfer and few-shot adaptation. These findings motivate designing intrinsic motivation and representation learning jointly. Our results demonstrate world models as a powerful tool for measuring the quality of intrinsically motivated experience, and positions intrinsic motivation as a key ingredient for building world models autonomously.
 
-<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -236,7 +236,7 @@
 - 2026-10-30, **Toolpath Overhang Optimization for the Large-Format 3D Printing of Bespoke Shapes**, Yefan Zhi et.al., Paper: [@2611.00371](http://arxiv.org/abs/2611.00371)
 > **Abstract:** This paper presents a closed curve trimming algorithm for overhang optimization in large-format support-free 3D printing of bespoke manifold shapes. Large-format 3D printing enables efficient fabrication of complex, bespoke shapes. Because of the material properties and surface quality requirements, such shapes are typically printed without support structures and have to be designed as support-free. Most current methods of overhang optimization are limited to certain types of geometry and do not apply to bespoke shapes. Our method directly optimizes sliced toolpath curves with minimal geometric modification. Given an overhang limit, it ensures that all resulting toolpath curves are strictly within the overhang limit while preserving their orientation and preventing intersections. The algorithm is based on curve offsetting and trimming, and is applicable to closed toolpath curves that represent the boundaries of a solid volume.
 
-<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -251,7 +251,7 @@
 - 2026-11-01, **Capable but Not Scalable: Requirements and Interaction Costs of Building Multi-View CAD Datasets for Design Research**, Danyal Sarfraz et.al., Paper: [@2611.02108](http://arxiv.org/abs/2611.02108)
 > **Abstract:** Transforming CAD models into consistent multi-view image datasets is increasingly important for AI-driven product design research, yet existing workflows can impose substantial burdens on researchers without programming expertise. We examine this challenge from a human-computer interaction (HCI) perspective by analyzing ten reported rendering practices and deriving fourteen requirements spanning dataset quality, visual consistency, and user interaction. We then assess eleven development- and design-oriented tools against an illustrative task involving STEP models, interpreting potential interaction costs through the cognitive dimensions framework. Our analysis reveals a gap between technical capability and practical scalability: programming-based frameworks offer flexible automation but require coding expertise, while graphical design tools provide accessible functionality yet retain repetitive per-product operations. No assessed workflow combines a low programming threshold, low repetition viscosity, and flexible protocol configuration. Based on these findings, we propose design directions including reusable rendering presets, collection-wide previews and corrections, mixed-initiative orientation assignment, and automatic provenance recording. This work reframes CAD dataset generation as an end-user interaction design problem and establishes requirements for more accessible, scalable dataset creation tools.
 
-<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -324,7 +324,7 @@
 - 2026-11-06, **RigidGS: Geometry-Aware Object Decoupling for Rigid-Body Interaction in 3D Gaussian Splatting**, Paul Sansah Gyreyiri et.al., Paper: [@2611.10199](http://arxiv.org/abs/2611.10199)
 > **Abstract:** Interactive VR/MR applications demand photorealistic 3D representations that support real-time rendering and object-level manipulation. While 3D Gaussian Splatting (3DGS) achieves high rendering quality, it represents scenes as unstructured, monolithic primitives. Existing object-aware 3DGS methods jointly optimize geometry and semantic states but suffer from two key failure modes: noisy foundation-model masks on complex geometry, and label-geometry coupling, in which co-optimized identity gradients mislabel boundary Gaussians. We introduce RigidGS, an end-to-end pipeline that decouples geometric learning from object identity. We propose a depth- and temporally-aware mask refinement module that addresses two complementary SAM2 failures: over-inclusion on thin structures and under-inclusion on multimodal-depth objects. We then determine object identities entirely upstream via COLMAP projection voting and freeze them during training, directing mask supervision solely toward geometric optimization. Refined masks alone substantially improve competing methods, yet a residual gap in label-geometry coupling persists that our fixed-identity design eliminates. RigidGS outperforms prior object-aware 3DGS methods on LLFF/NVOS, Mip-NeRF~360, and iNeRF360, improving segmentation and boundary IoU by 7.7 and 14.5 points on LLFF/NVOS. Finally, RigidGS enables real-time rigid-body manipulation on Meta Quest~2 without mesh extraction. Our code and project page are available at https://gyreyirisansah.github.io/rigidgs.
 
-<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -379,7 +379,7 @@
 - 2026-11-06, **STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards**, Nico Bohlinger et.al., Paper: [@2611.08857](http://arxiv.org/abs/2611.08857)
 > **Abstract:** Learning locomotion directly on a humanoid robot is a promising direction to avoid the sim-to-real gap. However, locomotion rewards in Reinforcement Learning (RL) typically track the base velocity, which cannot be measured onboard without an external motion capture system or well-calibrated state estimator. This is why we introduce \method{}, which learns humanoid locomotion from minutes of samples with a reward that only requires the onboard Inertial Measurement Unit (IMU). Instead of tracking the base velocity, STRIDE rewards the robot for following a commanded acceleration profile. To learn efficiently from this reward, we use the off-policy RL algorithm XQC and combine a high gain setting for the joint position controllers with left-right symmetry augmentation. In simulation, STRIDE learns to walk on the Unitree G1 and Booster T1 humanoids within 14 minutes of samples. Compared to learning without these two components, it reduces the falls during training by 81%, while without them the robot learns only in over an hour.
 
-<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -410,7 +410,7 @@
 - 2026-10-30, **SketchForge: Training-Free Scene-to-Vector Sketching via Decoupled Structure and Texture Optimization**, Quang-Thinh Nguyen et.al., Paper: [@2611.00253](http://arxiv.org/abs/2611.00253)
 > **Abstract:** Converting a raster image into a resolution-independent, stroke-editable vector sketch while faithfully preserving both structural contours and tonal texture remains challenging: raster-space rendering pipelines are difficult to edit at the stroke level, while generation-from-scratch vectorization methods struggle to remain faithful to an arbitrary input image. We present SketchForge, a training-free framework that converts an input raster image into a resolution-independent SVG sketch through per-instance test-time optimization of Bezier curves, requiring no additional training or fine-tuning. Strokes are seeded via a contour and attention-guided initialization, then refined by a vector-native differentiable rendering pipeline that decouples structural contour strokes from free-form texture strokes under dedicated objectives, composited via multiply-blend layering. Extensive experiments show that SketchForge consistently outperforms existing vector-based baselines in structural fidelity and generation quality. Project page: https://khangcntn123.github.io/SketchForge
 
-<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -423,7 +423,7 @@
 - 2026-10-30, **Hierarchical Dual-Graph Retrieval for Long-form Audio Reasoning**, Eunsang Lee et.al., Paper: [@2610.41390](http://arxiv.org/abs/2610.41390)
 > **Abstract:** Large audio language models (LALMs) struggle with long-form audio reasoning, as processing entire recordings often limits to capture query-relevant content distributed across distant segments while incurring substantial computational cost. We introduce AudioHelix, a hierarchical DualGraph framework tailored for LALMs' retrieval-augmented generation (RAG) systems. Unlike existing text-only or non-graph RAG approaches, AudioHelix connects related textual and acoustic evidence across temporally distant segments for multi-hop reasoning. Extensive experiments on TraceAV-Bench, MMAU-Pro, and AudioMarathon demonstrate that AudioHelix consistently outperforms full-audio processing and existing RAG methods. The project site is https://github.com/ewha-mmai/audiohelix.
 
-<p align=right>(<a href=#updated-on-20261113>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors
