@@ -167,4 +167,3 @@
 | 2026-11-02 | **IMUdrape: Generating Garment-Mounted Virtual IMU Data from Text through Physics-Based Cloth Simulation** | Neural Rendering & Physics Simulation | 0.67 | cloth simulation | [@2611.02393](http://arxiv.org/abs/2611.02393) | null |
 | 2026-11-01 | **MoPort: A View-Aware 2D Interface for Motion Language Models** | Character Motion Synthesis & Animation | 0.83 | human motion | [@2611.01541](http://arxiv.org/abs/2611.01541) | null |
 | 2026-11-01 | **Capable but Not Scalable: Requirements and Interaction Costs of Building Multi-View CAD Datasets for Design Research** | Sketch-based & Creative HCI Tools | 0.33 | design tool | [@2611.02108](http://arxiv.org/abs/2611.02108) | null |
-| 2026-10-31 | **3D Neural Rendering for Automated Ultrasonic Laser Scans** | Neural Rendering & Physics Simulation | 0.67 | neural rendering | [@2611.00527](http://arxiv.org/abs/2611.00527) | null |

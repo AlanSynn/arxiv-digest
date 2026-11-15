@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.14
+## 📚 Updated on 2026.11.15
 
 <details>
   <summary>Table of Contents</summary>
@@ -412,7 +412,7 @@
 - 2026-11-12, **Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors**, Hao Li et.al., Paper: [@2611.17060](http://arxiv.org/abs/2611.17060)
 > **Abstract:** Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies can be rolled out, evaluated, and improved in closed loop. Language models have advanced along well-characterized scaling laws; the corresponding question for physical AI is how capability scales with environments and behaviors, which first requires identifying which data to scale and how to produce and reuse such data continuously. To address this question, we introduce Ropedia Xperience 2, comprising 1,589 released metric-scale 3D scans and a collection of 4,230 egocentric recordings of 74 tasks (131 hours). We further show that each capture can be repurposed for robot learning: scenes are converted into physically interactive simulation environments, human motion is retargeted to whole-body robot trajectories, and additional robot behaviors are obtained through virtual teleoperation and automated long-horizon trajectory generation. We propose this joint capture of environments and behaviors as a gold standard for physical AI data collection, laying a data foundation for establishing scaling laws over environments and behaviors.
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -485,7 +485,7 @@
 - 2026-11-09, **A Unified Interactive Framework for Real-Time Three-Dimensional Cellular Automata Simulation in XR**, Ashkan Rezaei et.al., Paper: [@2611.13296](http://arxiv.org/abs/2611.13296)
 > **Abstract:** Integrating three-dimensional cellular automata (3D CA) into extended reality (XR) requires coordinated simulation, volumetric data management, rendering, and interaction under variable hardware constraints. This paper presents a hybrid study combining a critical review of existing approaches with a unified architecture for real-time 3D CA in XR. The proposed five-layer architecture integrates voxel and rule management, parallel computation, interoperability middleware, visualization, and XR interaction. Its key principles include hardware-aware execution, asynchronous simulation-rendering, adaptive fidelity, and cross-engine interoperability. An analytical evaluation framework is defined to assess performance, latency, scalability, memory efficiency, simulation correctness, and interaction quality. The proposed framework provides a foundation for developing portable and interactive 3D CA systems across desktop and mobile XR platforms.
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -616,7 +616,7 @@
 - 2026-11-08, **From Sketch to Design: A Cross-scale Workflow for Procedural Generative Urban Design**, Jin Gao et.al., Paper: [@2611.11561](http://arxiv.org/abs/2611.11561)
 > **Abstract:** Urban designers use sketches and symbols to express spatial intentions, while many generative urban design tools rely on numeric parameters that are difficult to relate to this visual process. We propose a cross-scale workflow and a web-based prototype that translates symbolic sketches into controllable procedural urban generation. A vocabulary of shapes, informed by examples of urban design diagrams and sketching exercises with graduate urban design students, encodes attributes such as network structure, density, and program. The prototype uses the \$1 Unistroke Recognizer to map gestures to symbols and translates their locations and sizes into tensor-field attractors and weighted parameter grids. Grid and radial tensor fields guide street-network generation, while the parameter grids control building heights and programs. Implemented in JavaScript and TypeScript with React and Three.js, the prototype supports interactive sketching, visualization, and urban massing generation. We describe the methodology and illustrate prototype interactions, then discuss downstream integration with architectural-scale generative tools for further refinement and analysis. The work connects designers' symbolic input with an explicit procedural generation process.
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -5139,7 +5139,7 @@
 - 2026-11-11, **How Far Can Frozen Vision-Language Models Go on Event Data? A Training-Free Study on EventBench**, Md Kamrujjaman Mobin et.al., Paper: [@2611.15756](http://arxiv.org/abs/2611.15756)
 > **Abstract:** We present a training-free system for the EBMV @ ECCV 2026 challenge "Event Stream Understanding with EventBench" (General Understanding track), which evaluates vision-language models on five event-camera understanding tasks. We use none of the challenge's training data: our goal is to measure how far off-the-shelf, RGB-pretrained models can go on event data through representation and prompting alone. For four of the five categories (gesture recognition, detailed understanding, causal reasoning, and event OCR) we render event bins as red/ON, blue/OFF frames, select a category-specific subset of bins, stitch them into a single grid image, and query the same frozen Qwen3.5 9B vision-language model with a category-specific prompt for all four tasks. The fifth category, action recognition, feeds every bin directly into the organizers' EventGPT-Plus-2B. The system reaches 62.28% overall accuracy across 2,084 test questions (rank 9/27), led by action recognition and causal reasoning (80.27%, 77.22%) and limited most by gesture recognition and event OCR (54.70%, 34.57%). We visualize test samples from every category together with the exact images the model receives, score six alternative representations against the evaluation server, and analyze the full test set post hoc. That analysis shows that our bounding-box crop almost never tightened around content, so event OCR text reached the model at roughly one fifth of its horizontal resolution, and that detailed-understanding predictions are skewed toward the first two answer options.
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -7636,7 +7636,7 @@
 - 2026-11-10, **BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model**, Junyoung Seo et.al., Paper: [@2611.14815](http://arxiv.org/abs/2611.14815)
 > **Abstract:** Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories as inputs. We introduce BirdDreams, an autoregressive driving world model that jointly generates perspective video and a schematic bird's-eye-view (BEV) video, making scene layout part of the predicted future. The BEV, rendered from scene annotations for training, depicts roads and vehicles as simple shapes at a fixed metric scale, providing a top-down view of their positions and motion with reduced occlusion between vehicles. Perspective video, by contrast, retains scene details that the BEV omits, such as traffic signals and object appearance. Joint attention between two video diffusion transformers, one per stream, lets each stream inform the other during generation. The predicted BEV also provides a geometric interface for ego control: we translate and rotate its latest frame along an input ego trajectory and use the resulting frames as a soft condition that shows how the scene would appear to move if only the ego vehicle moved. At inference, BirdDreams generates both videos from a single camera image without requiring an HD map or vehicle-state inputs. On PhysicalAI-AV and nuScenes, BirdDreams follows input ego trajectories more faithfully than prior driving world models and generates more plausible ego motion without ego-action conditioning. Human evaluation shows that BirdDreams outperforms a perspective-only baseline in generating realistic surrounding-vehicle behavior.
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -9059,7 +9059,7 @@
 - 2026-11-11, **Multi-View 3D Reconstruction Using V-JEPA Features**, Anwar Shamim et.al., Paper: [@2611.15143](http://arxiv.org/abs/2611.15143)
 > **Abstract:** Predictive video encoders provide dense visual representations, but adapting them to 3D reconstruction requires accurate depth, camera poses, and cross-view geometry. We study supervised RGB-only multi-view reconstruction using an architecture that combines video-pretrained features, camera estimation, scene aggregation, epipolar transport, and residual pointmaps. Experiments compare global and spatial camera regression with joint relative objectives on CO3D, alongside an independently trained TUM RGB-D model. On 168 CO3D five-view windows, the spatial-camera configuration achieves 29.3% lower absolute trajectory error than the global-camera configuration, but performs worse than identity poses in trajectory error and worse than the global configuration in depth error. The joint relative-objective configuration improves normalized intrinsics error and similarity-aligned Chamfer distance from 0.6447 to 0.5573, but increases raw Chamfer distance from 3.5535 to 4.4374. On 163 indoor windows, camera error is 0.3063 m versus 0.3694 m for identity poses, while depth error is 0.4279 versus 0.2516 for constant median depth. Refinement worsens indoor camera error, and additional experiments show competing depth and pose effects. Overall, the results distinguish representation adaptation, aligned shape, and raw reconstruction, highlighting the need for isolated component and encoder comparisons before attributing reconstruction gains to predictive video pretraining.
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -10098,7 +10098,7 @@
 - 2026-11-11, **FOE-Dreamer: Deployment-Efficient Learning of Cyber Defense Policies in Operational Networks**, Yinuo Du et.al., Paper: [@2611.14880](http://arxiv.org/abs/2611.14880)
 > **Abstract:** Autonomous cyber defense is widely studied with deep reinforcement learning, but most work trains policies inside simulators because learning requires many trial-and-error interactions. Simulator-based training carries a fidelity gap: trained policies face authentication delays, partial action failures, service dependencies, and user traffic patterns that the simulator did not represent, and degrade on transfer. Training directly in the network being defended removes the gap but makes every interaction slow and costly, so sample efficiency becomes the binding constraint. Model-based reinforcement learning has reduced sample requirements on games and physical robots by orders of magnitude by planning inside a learned world model, but it has not been applied to defenders trained in operational networks. We present FOE-Dreamer (Factored Opponent-Enhanced Dreamer), a model-based reinforcement learning framework that trains a defender online and directly in a network on cloud infrastructure, without a simulator stage. FOE-Dreamer separates three sources of variation in the latent state: a controllable component driven by defender actions, an exogenous component driven by benign user activity, and an opponent embedding inferred from defender-observable signals alone. Separating the components reduces the variance in policy gradients during planning in imagination. Against two scripted attacker profiles with user activity emulated by the GHOSTS framework on an 8-host OpenStack testbed, FOE-Dreamer trains within a 3-day budget on a single GPU and achieves about 2$\times$ better episode loss than Rainbow and IQN baselines under matched compute. Both the factoring and the opponent model contribute to the gain, and the learned latents are consistent with the intended separation.
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -10193,7 +10193,7 @@
 - 2026-11-09, **SCLAP: Temporal structural alignment improves localization in long-form audio**, Yacouba Kaloga et.al., Paper: [@2611.12124](http://arxiv.org/abs/2611.12124)
 > **Abstract:** Audio-text models such as Contrastive Language-Audio Pretraining (CLAP) typically pool frame and token sequences uniformly into global embeddings. This discards temporal structure and impairs both retrieval and localization, especially for short events in long recordings. We introduce SCLAP, a sequence-level contrastive framework that aligns audio frames and text tokens using monotone one-dimensional optimal transport. Its learned marginals and transport plan provide fine-grained temporal supervision from clip-level captions alone. On short-form audio (i.e., Clotho and TACOS datasets with 15-30s recordings), SCLAP remains competitive for retrieval while improving zero-shot localization over CLAP and Text-aware Attention Pooling. On long-form audio (i.e., CASTELLA dataset with up to 300s recordings), SCLAP improves retrieval performance and its localization advantage grows as the event-to-context ratio decreases. At inference, SCLAP requires no optimal transport computation since retrieval can use pooled embeddings and localization can use inexpensive frame-text cosine scores.
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -10394,7 +10394,7 @@
 - 2026-11-12, **Learning the Missing Derivative: Neural Multiple-Scattering Operators for Inverse Volume Rendering**, Sipeng Chen et.al., Paper: [@2611.16650](http://arxiv.org/abs/2611.16650)
 > **Abstract:** Reconstructing optically thick media from photographs requires modeling multiple scattering and its response to changes in extinction. Frozen-source tomography discards this derivative; differentiable path tracing estimates it through expensive, noisy sampling. We instead predict the multiple-scattering field with a neural operator and differentiate through it during inverse rendering, while computing transmittance and single scattering directly. A further challenge arises during optimization: an operator that predicts the field accurately on held-out media can still produce poor derivatives at the density states visited by the optimizer. We address this by fine-tuning on states generated during inversions driven by the operator, using Monte Carlo scattering-field supervision. On held-out optically thick clouds, our method improves relighting over frozen-source tomography at equal time and outperforms differentiable path tracing given substantially more time. Training on inversion trajectories also improves derivative alignment at visited states and reduces optimization drift.
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -10425,7 +10425,7 @@
 - 2026-11-05, **REACT: Towards Real-Time Completion of Skeletal Motion Signals**, P. de Clermont Gallerande et.al., Paper: [@2611.08301](http://arxiv.org/abs/2611.08301)
 > **Abstract:** Tracking user motion in interactive and immersive applications is increasingly common (e.g., video games, XR systems, smartphones). Yet, processing and transmitting human motion data remain critical challenges, as current approaches strongly rely on the quality of the tracked motion signals. In general, affordable motion-capture systems may produce unnatural animations in the presence of calibration errors, occlusions, sensor drift, high-frequency noise, or other artifacts. More specifically, we simulate occlusions and high-frequency noise and propose to mitigate their effects with REACT, an interactive online motion-completion framework operating causally, frame by frame, without look-ahead. REACT is an S4-based autoregressive model that coordinates complementary motion estimates under specific reliability-dependent constraints and exposes several interpretable internal signals. We present a system-level contribution consisting of a structured formulation of interactive motion completion together with a coherent instantiation of this formulation. We evaluate REACT against several causal baselines and architectural variants under varying levels of occlusion severity, and report their respective inference latencies. Our results show that REACT achieves a relevant compromise between reconstruction accuracy, update smoothness, and interactive inference. Finally, we characterize how its fusion behaviour changes under missing input observations.
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

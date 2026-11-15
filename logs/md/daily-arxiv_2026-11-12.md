@@ -3,10 +3,10 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.14
+## 📚 Updated on 2026.11.15
 
 <details open>
-<summary>📑 Table of Contents — 2026-11-14</summary>
+<summary>📑 Table of Contents — 2026-11-15</summary>
 
 **By category**
 - [Motion Authoring, Editing & Retargeting](#motion-authoring-editing--retargeting) (1)
@@ -17,7 +17,7 @@
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (5)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (34)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (25)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (12)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (11)
 - [Narrative & Long-form Audio](#narrative--long-form-audio) (2)
 
 </details>
@@ -30,7 +30,7 @@
 |---|---|---|---|---|
 |**2026-11-05**|**REACT: Towards Real-Time Completion of Skeletal Motion Signals**|P. de Clermont Gallerande et.al.|[@2611.08301](http://arxiv.org/abs/2611.08301)|null|
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Character Motion Synthesis & Animation
 
@@ -54,7 +54,7 @@
 |**2026-11-01**|**MoPort: A View-Aware 2D Interface for Motion Language Models**|Lixing Tan et.al.|[@2611.01541](http://arxiv.org/abs/2611.01541)|null|
 |**2026-10-30**|**Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos**|Wendong Bu et.al.|[@2610.41877](http://arxiv.org/abs/2610.41877)|null|
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -94,7 +94,7 @@
 |**2026-11-11**|**Prior-as-Skill: Remember Outside and Read Inside with On-Policy Self-Distillation for Self-Evolving VLM Agents**|Yan Lin et.al.|[@2611.15766](http://arxiv.org/abs/2611.15766)|null|
 |**2026-11-11**|**How Far Can Frozen Vision-Language Models Go on Event Data? A Training-Free Study on EventBench**|Md Kamrujjaman Mobin et.al.|[@2611.15756](http://arxiv.org/abs/2611.15756)|null|
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -139,7 +139,7 @@
 |**2026-11-09**|**Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing**|Nikita Sarawgi et.al.|[@2611.13229](http://arxiv.org/abs/2611.13229)|null|
 |**2026-11-09**|**Building World Models from Intrinsic Motivation**|Reece Keller et.al.|[@2611.13113](http://arxiv.org/abs/2611.13113)|null|
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -153,7 +153,7 @@
 |**2026-11-02**|**Learning Purposeful Co-designs of Bio-inspired Quadrupedal Robots**|Fabio Boekel et.al.|[@2611.02462](http://arxiv.org/abs/2611.02462)|null|
 |**2026-10-30**|**Toolpath Overhang Optimization for the Large-Format 3D Printing of Bespoke Shapes**|Yefan Zhi et.al.|[@2611.00371](http://arxiv.org/abs/2611.00371)|null|
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -165,7 +165,7 @@
 |**2026-11-03**|**OmniScribble: Mixed-Initiative Authoring of Animated Sketches through Inspectable and Repairable AI Decisions**|Hien Trinh et.al.|[@2611.04284](http://arxiv.org/abs/2611.04284)|null|
 |**2026-11-01**|**Capable but Not Scalable: Requirements and Interaction Costs of Building Multi-View CAD Datasets for Design Research**|Danyal Sarfraz et.al.|[@2611.02108](http://arxiv.org/abs/2611.02108)|null|
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -206,7 +206,7 @@
 |**2026-11-06**|**OfficeTwin: Realizing 3D Reconstruction of Redundant Scenes through Partial Viewpoint Perception**|Quanyun Wu et.al.|[@2611.10241](http://arxiv.org/abs/2611.10241)|null|
 |**2026-11-06**|**RigidGS: Geometry-Aware Object Decoupling for Rigid-Body Interaction in 3D Gaussian Splatting**|Paul Sansah Gyreyiri et.al.|[@2611.10199](http://arxiv.org/abs/2611.10199)|null|
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -238,7 +238,7 @@
 |**2026-11-06**|**RevoSim: Scalable Multimodal Tactile Simulation for Dexterous Manipulation**|Ke Zhang et.al.|[@2611.08939](http://arxiv.org/abs/2611.08939)|null|
 |**2026-11-06**|**STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards**|Nico Bohlinger et.al.|[@2611.08857](http://arxiv.org/abs/2611.08857)|null|
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -258,7 +258,7 @@
 |**2026-10-31**|**3D Neural Rendering for Automated Ultrasonic Laser Scans**|Thomas Pierson et.al.|[@2611.00527](http://arxiv.org/abs/2611.00527)|null|
 |**2026-10-30**|**SketchForge: Training-Free Scene-to-Vector Sketching via Decoupled Structure and Texture Optimization**|Quang-Thinh Nguyen et.al.|[@2611.00253](http://arxiv.org/abs/2611.00253)|null|
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -269,7 +269,7 @@
 |**2026-10-30**|**MFlowAudio: Efficient Text-to-Audio Synthesis via Mamba-based Stateful Flow Matching**|Hao Dai et.al.|[@2610.41852](http://arxiv.org/abs/2610.41852)|null|
 |**2026-10-30**|**Hierarchical Dual-Graph Retrieval for Long-form Audio Reasoning**|Eunsang Lee et.al.|[@2610.41390](http://arxiv.org/abs/2610.41390)|null|
 
-<p align=right>(<a href=#updated-on-20261114>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261115>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors
