@@ -3,16 +3,16 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.20
+## 📚 Updated on 2026.11.21
 
 <details open>
-<summary>📑 Table of Contents — 2026-11-20</summary>
+<summary>📑 Table of Contents — 2026-11-21</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (21)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (20)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (37)
 - [World Models & Generative Video](#world-models--generative-video) (38)
-- [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (6)
+- [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (5)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (25)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (25)
@@ -234,7 +234,7 @@
 |**2026-11-19**|**Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience**|EngineAI et.al.|[@2611.26420](http://arxiv.org/abs/2611.26420)|null|
 |**2026-11-18**|**CoRelate: Coordinated Human-Object Motion Synthesis through Interaction Relations**|Zhiwen Qiu et.al.|[@2611.25166](http://arxiv.org/abs/2611.25166)|null|
 
-<p align=right>(<a href=#updated-on-20261120>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -276,7 +276,7 @@
 |**2026-11-09**|**A Unified Interactive Framework for Real-Time Three-Dimensional Cellular Automata Simulation in XR**|Ashkan Rezaei et.al.|[@2611.13296](http://arxiv.org/abs/2611.13296)|null|
 |**2026-11-19**|**A Tutorial on Complementarity-Based Contact Models for Robotics**|Onur Beker et.al.|[@2611.26600](http://arxiv.org/abs/2611.26600)|null|
 
-<p align=right>(<a href=#updated-on-20261120>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -349,7 +349,7 @@
 |**2026-11-16**|**Shaping AI's Beliefs Before It Generates: Human Sense of Agency in Creative AI**|Zi Wang et.al.|[@2611.21405](http://arxiv.org/abs/2611.21405)|null|
 |**2026-11-16**|**PromptPoseFX: Authoring Pose-Driven Visual Effects through Augmented Prompting and Interactive Refinement**|Kexin Zheng et.al.|[@2611.20485](http://arxiv.org/abs/2611.20485)|null|
 
-<p align=right>(<a href=#updated-on-20261120>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -2780,7 +2780,7 @@
 |**2026-11-19**|**Goal-Guided Reinforcement Learning via Fine-Tuning Vision-Language Models**|Yajie Qi et.al.|[@2611.25742](http://arxiv.org/abs/2611.25742)|null|
 |**2026-11-19**|**DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding**|Jiaming Liu et.al.|[@2611.25722](http://arxiv.org/abs/2611.25722)|null|
 
-<p align=right>(<a href=#updated-on-20261120>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -4163,7 +4163,7 @@
 |**2026-11-18**|**Identity World Model: Recognizing People in an Imagined Latent World**|Dingqiang Ye et.al.|[@2611.25204](http://arxiv.org/abs/2611.25204)|null|
 |**2026-11-18**|**GEMS: Generation and Experience Memory for Subgoal-Guided Long-Horizon World Model Planning**|Yangchen Zhao et.al.|[@2611.25134](http://arxiv.org/abs/2611.25134)|null|
 
-<p align=right>(<a href=#updated-on-20261120>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -4919,7 +4919,7 @@
 |**2026-11-19**|**Multi-View Relighting with Mergeable Radiance Fields**|Yinan Wang et.al.|[@2611.25523](http://arxiv.org/abs/2611.25523)|null|
 |**2026-11-18**|**Infer3D: Inverse Generative Modeling Enables Robust 3D Reconstruction**|Amani Kiruga et.al.|[@2611.25061](http://arxiv.org/abs/2611.25061)|null|
 
-<p align=right>(<a href=#updated-on-20261120>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -5466,7 +5466,7 @@
 |**2026-11-18**|**WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation**|Qianzhong Chen et.al.|[@2611.25251](http://arxiv.org/abs/2611.25251)|null|
 |**2026-11-18**|**Ferrofluid Shape Control with Deep Reinforcement Learning**|Anthony Czubarow et.al.|[@2611.25232](http://arxiv.org/abs/2611.25232)|null|
 
-<p align=right>(<a href=#updated-on-20261120>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -5519,7 +5519,7 @@
 |**2026-11-09**|**SCLAP: Temporal structural alignment improves localization in long-form audio**|Yacouba Kaloga et.al.|[@2611.12124](http://arxiv.org/abs/2611.12124)|null|
 |**2026-11-17**|**High-Fidelity Binarized Neural Vocoder**|Andong Li et.al.|[@2611.22593](http://arxiv.org/abs/2611.22593)|null|
 
-<p align=right>(<a href=#updated-on-20261120>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -5627,7 +5627,7 @@
 |**2026-11-19**|**VideoRNG: Relightable Neural Gaussians from Generative Video Models**|Bowen Xue et.al.|[@2611.25338](http://arxiv.org/abs/2611.25338)|null|
 |**2026-11-18**|**Real Cameras are Radiometric**|Ties Harder et.al.|[@2611.25265](http://arxiv.org/abs/2611.25265)|null|
 
-<p align=right>(<a href=#updated-on-20261120>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -5647,7 +5647,7 @@
 |**2026-10-28**|**Decompose, Don't Expand: Capability-Independent AI Systems by Construction**|Tejaswi Gowda et.al.|[@2610.38144](http://arxiv.org/abs/2610.38144)|null|
 |**2026-11-05**|**REACT: Towards Real-Time Completion of Skeletal Motion Signals**|P. de Clermont Gallerande et.al.|[@2611.08301](http://arxiv.org/abs/2611.08301)|null|
 
-<p align=right>(<a href=#updated-on-20261120>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

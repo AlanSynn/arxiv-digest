@@ -165,5 +165,3 @@
 | 2026-11-08 | **SoftPAT3D: Physics-Augmented Text-to-3D Scene Generation with Deformables** | Neural Rendering & Physics Simulation | 0.33 | deformable simulation | [@2611.11087](http://arxiv.org/abs/2611.11087) | null |
 | 2026-11-07 | **ZARA: Zero-shot Animatable and Relightable 3D Avatar reconstruction from a single image** | Neural Rendering & Physics Simulation | 1.00 | relightable | [@2611.10562](http://arxiv.org/abs/2611.10562) | null |
 | 2026-11-07 | **MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification** | Character Motion Synthesis & Animation | 0.83 | motion generation | [@2611.10592](http://arxiv.org/abs/2611.10592) | null |
-| 2026-11-06 | **Improving the Diffusability of Motion Tokenizer** | Character Motion Synthesis & Animation | 1.00 | motion generation, human motion | [@2611.10160](http://arxiv.org/abs/2611.10160) | null |
-| 2026-11-06 | **Segmenting Geometric Textures of 3D Meshes** | Computational Design, Mechanism & Fabrication | 0.25 | 3D printing | [@2611.08897](http://arxiv.org/abs/2611.08897) | null |
