@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.21
+## 📚 Updated on 2026.11.22
 
 <details>
   <summary>Table of Contents</summary>
@@ -436,7 +436,7 @@
 - 2026-11-18, **CoRelate: Coordinated Human-Object Motion Synthesis through Interaction Relations**, Zhiwen Qiu et.al., Paper: [@2611.25166](http://arxiv.org/abs/2611.25166)
 > **Abstract:** Human-object motion synthesis requires coordinated human participation as objects move toward specified goals. However, reaching object targets does not ensure that contact is established and maintained, while adjustments that improve contact may interfere with task completion. We introduce CoRelate, a diffusion framework that coordinates full-body human-object motion through explicit interaction relations and task feedback for rigid and articulated objects. We represent intended participation through hand-part relations that specify the participating hand, its part-relative reference position, and participation interval. These relations serve both as generation conditions and as references for measuring interaction realization. At each denoising step, a temporal refiner trained jointly with the generator combines relation deviations, task residuals, and motion features from the current prediction to jointly update human and object motion across the sequence. After generation, temporal motion correction addresses remaining contact failures by optimizing local motion segments while preserving object trajectories and protected human motion. Experiments demonstrate improved object-goal satisfaction, contact F1, and complete interaction success over the evaluated baselines. Ablation studies support the benefits of relation conditioning and the complementary roles of task and relation feedback.
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -511,7 +511,7 @@
 - 2026-11-19, **A Tutorial on Complementarity-Based Contact Models for Robotics**, Onur Beker et.al., Paper: [@2611.26600](http://arxiv.org/abs/2611.26600)
 > **Abstract:** Simulating rigid-body dynamics with contact is fundamental to robotics, from motion synthesis and control to mechanism design. Many widely used simulators rely on cone complementarity formulations, whose physical assumptions and numerical solution require substantial background. While excellent surveys, monographs, and course notes exist, they mostly address computational mechanics or computer graphics or document a single simulator. To the best of our knowledge, a self-contained pedagogical treatment for robotics, bringing these formulations and their solvers together with complete derivations and a unified notation, does not yet exist. This tutorial addresses this gap by connecting rigid-body dynamics, conic optimization, and frictional contact. In particular, we explain how complementarity conditions encode non-penetration and frictional dissipation, determining separation, sticking, and sliding without prescribed contact modes. We distinguish equivalent transcriptions from convex relaxations, showing how the latter can introduce artifacts such as lift-off and creep. We examine the existence and uniqueness of motion and contact forces, including the solver's role in selecting among multiple solutions. We then compare first-order and Newton-based methods, explain regularization and proximal strategies, and discuss trade-offs between computational cost, robustness, and physical fidelity. Connections to widely used simulators, optimal control, and differentiable simulation help readers interpret simulation results, choose suitable formulations and solvers, and develop their own contact dynamics routines.
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -648,7 +648,7 @@
 - 2026-11-16, **PromptPoseFX: Authoring Pose-Driven Visual Effects through Augmented Prompting and Interactive Refinement**, Kexin Zheng et.al., Paper: [@2611.20485](http://arxiv.org/abs/2611.20485)
 > **Abstract:** Human pose-driven visual effects offer a compelling way for enhancing video expressiveness and storytelling. Authoring such effects with traditional video editing tools is a complex and time-consuming task that requires considerable technical expertise and manual effort. While generative AI models can simplify the workflow by reducing manual scripting through language-driven generation, existing approaches suffer from imprecise alignment between visual effects and pose data, failure to preserve original video content, and limited support for fine-grained, iterative refinement. To address these challenges, we present PromptPoseFX, an interactive system that allows creators to author pose-driven visual effects through augmented language prompts and interactive refinement. Our system leverages Large Language Models (LLMs) to translate high-level user intent into parameterized procedural graphics scripts, automatically mapping pose-tracking data to specific effect parameters, allowing precise alignment with human motion. This script-based approach manages effects as independent layers, thereby preserving the original content of the underlying video. To reduce language ambiguity, our interface offers controls across spatial, temporal, and parameter domains, enabling the precise, intuitive, and iterative authoring of pose-driven visual effects. We evaluated PromptPoseFX through a comparative study against a text-only LLM interface, followed by an exploratory study. In the comparative study, participants rated PromptPoseFX significantly higher than the text-only baseline on measures of perceived control and precision. The exploratory study examined usability and creativity support in open-ended authoring tasks.
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -5501,7 +5501,7 @@
 - 2026-11-19, **DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding**, Jiaming Liu et.al., Paper: [@2611.25722](http://arxiv.org/abs/2611.25722)
 > **Abstract:** 3D visual grounding (3D-VG) is a task that bridges the natural language and 3D space, serving as a foundational capability for embodied intelligence and human-computer interaction. Although recent 3D-VG agents overcome the reliance on pre-processed 3D point clouds, they essentially employ a unidirectional, pipeline-style tool-calling architecture. This architecture separates semantic understanding from geometric reconstruction, leading to error accumulation and an inability to autonomously recover from failures. To address this flaw, this paper proposes the Dual-Anchor Collaborative Agent (DACA), which reinterprets 3D-VG as a semantic-geometric dual-anchor collaborative reasoning paradigm. DACA comprises two complementary specialized tools: the semantic anchor tool holds the visual semantic features of the target and achieves efficient target tracking via optical flow and VLM local verification; the geometric anchor tool holds the 3D spatial geometric features of the target and performs global spatial reasoning via voxelization and multi-keypoint projection. The two components exchange information bidirectionally via a standardized tool call protocol, autonomously deciding on the next perception-action step to form a closed-loop optimization. Experiments on the ScanRefer and Nr3D benchmarks demonstrate that zero-shot DACA achieves an overall Acc@0.25 of 73.6\% on ScanRefer and 70.4\% overall accuracy on Nr3D, far surpassing the latest zero-shot 3D-VG methods. The code and models are available at https://github.com/liujia99/DACA
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -8258,7 +8258,7 @@
 - 2026-11-18, **GEMS: Generation and Experience Memory for Subgoal-Guided Long-Horizon World Model Planning**, Yangchen Zhao et.al., Paper: [@2611.25134](http://arxiv.org/abs/2611.25134)
 > **Abstract:** Visual world models enable effective short-horizon goal-conditioned planning, such as reaching nearby targets and pushing objects over short distances, by predicting candidate action outcomes and comparing their representations with a goal representation. However, extending this approach to long-horizon tasks is challenging: prediction errors accumulate over extended rollouts, while latent-space similarity to distant goals provides limited guidance for ranking candidate outcomes. Existing methods address these limitations by introducing intermediate subgoals, either generated by learned models or selected from experience memory. Generated subgoals can contain hallucinations or be inaccurate in aspects such as object positions and timing. Memory-based approaches are constrained by experience coverage and may lack precise guidance for selecting appropriate intermediate states from stored observations. We introduce GEMS, which generates temporally structured subgoals to guide action search and state selection from Latent Experience Memory (LEM). A distance gate determines whether predicted outcomes are evaluated against the generated subgoal or the selected memory state. Experiments across six tasks and task suites spanning manipulation, navigation, and reaching demonstrate the effectiveness of GEMS for long-horizon planning. GEMS outperforms state-of-the-art world-model planning baselines across different manipulation settings, achieving success rates of 92.8% on Cube, 68.4% on Push-T, and 54.1% on Meta-World. It improves over the strongest evaluated baseline on these tasks by 24.0, 7.3, and 22.2 percentage points, respectively. These results demonstrate that generated subgoals and experience memory can jointly strengthen long-horizon planning with a frozen world model.
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -9761,7 +9761,7 @@
 - 2026-11-18, **Infer3D: Inverse Generative Modeling Enables Robust 3D Reconstruction**, Amani Kiruga et.al., Paper: [@2611.25061](http://arxiv.org/abs/2611.25061)
 > **Abstract:** Humans can understand the 3D structure of scenes even from highly unfamiliar or extreme viewpoints. Cognitive science suggests this generalization stems from a top-down generative inference strategy. In contrast, state-of-the-art 3D reconstruction neural networks typically rely on amortized, feedforward inference. While fast, this pattern-matching approach degrades when faced with out-of-distribution (OOD) scene conditions unseen during training. Inspired by the generative nature of human vision, we propose Infer3D, an inverse generative modeling framework that recovers the latent variables of a generative model to best match the monocular input. To prevent degenerate flat outputs, we couple the generative image prior with a frozen 3D lifting network that constrains the optimization space to a valid, multi-view-consistent 3D manifold. Across a variety of controlled synthetic and real-world tasks, Infer3D demonstrates superior OOD reconstruction accuracy compared to feedforward networks trained on equal or larger datasets. Furthermore, mirroring how human perception requires more time to process confusing stimuli, we introduce an adaptive inference strategy that expends more test-time compute on ambiguous OOD examples while efficiently routing in-distribution inputs. Project website: https://amanikiruga.github.io/infer3d-site/
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -10846,7 +10846,7 @@
 - 2026-11-18, **Ferrofluid Shape Control with Deep Reinforcement Learning**, Anthony Czubarow et.al., Paper: [@2611.25232](http://arxiv.org/abs/2611.25232)
 > **Abstract:** Ferrofluids are liquids containing magnetic nanoparticles, enabling shape control through external magnetic fields. This deformability supports their use as soft robotic bodies that can navigate confined spaces and manipulate objects. Their nonlinear continuum dynamics, however, make reliable control challenging. Existing work shows how spatial magnetic fields from electromagnet arrays can establish and maintain desired ferrofluid configurations. A complementary objective is to exploit the fluid's dynamics under limited actuation to reach prescribed shapes that may not be sustainable at equilibrium. Here, we use deep model-based reinforcement learning to control these transient shapes. Learning directly through physical interaction, our policies select current commands for a single fixed electromagnet based on visual observations, guiding the moving ferrofluid toward prescribed geometries. The learned policies repeatedly attain a variety of shapes spanning polygons, asterisks and pentominoes. These results demonstrate that learning directly from physical interaction enables reliable fluid shaping, opening new possibilities for controlling ferrofluid-based soft robots.
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -10943,7 +10943,7 @@
 - 2026-11-17, **High-Fidelity Binarized Neural Vocoder**, Andong Li et.al., Paper: [@2611.22593](http://arxiv.org/abs/2611.22593)
 > **Abstract:** Neural vocoders have achieved remarkable progress in high-fidelity waveform generation in recent years, but most existing methods still rely on full-precision operators, leading to non-negligible storage and computational costs during inference. Binary neural networks (BNNs) provide an alternative direction by quantizing weights and activations to 1 bit. However, directly applying binarization to neural vocoders is rather challenging as it inherently incurs severe information loss. To this end, we propose BiVoC, a BNN-oriented time-frequency neural vocoder for high-fidelity waveform generation. Building on our previous full-precision RNDVoC framework, BiVoC adapts the inverse-problem formulation, range-null decomposition, and fineto-coarse non-uniform subband modeling to the 1-bit setting. Specifically, we develop a simple binarized convolutional unit to provide stable time-frequency feature modeling under binary representations. Furthermore, we analyze the quality-complexity sensitivity of different modules and propose a mixed-precision design to retain quality-sensitive components in full precision while binarizing computation-dominant parts. Extensive experiments are conducted on LibriTTS and multiple out-of-distribution benchmarks. Both objective and subjective results demonstrate that BiVoC substantially outperforms BNN variants obtained by directly binarizing existing vocoders, while achieving competitive performance against several mainstream full-precision vocoder baselines under much lower theoretical computational cost. These results demonstrate the promising potential of BNNs in the audio generation field. Codes and pre-trained weights are available at https://github.com/Andong-Li-speech/BiVoC.
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -11150,7 +11150,7 @@
 - 2026-11-18, **Real Cameras are Radiometric**, Ties Harder et.al., Paper: [@2611.25265](http://arxiv.org/abs/2611.25265)
 > **Abstract:** We propose the radiometric camera, a model that lifts any central geometric camera model to a radiometric one. The lifted model keeps the projection of the geometric model and adds a finite aperture, a free-form focus surface and a generic vignetting function. We calibrate it by inverse rendering directly on the relative irradiance of the sensor, from the same images of standard calibration targets used in geometric calibration. Geometric calibration absorbs the bias of its feature detections. The proposed radiometric calibration uses no features, and our radiometric cameras have lower reprojection errors on held-out test sets. The focus surface extends defocus modeling from the thin lens to any central camera, and we use it in a first multi-view radiometric reconstruction, which recovers the in-focus reflectance of a texture from defocused images. The vignetting is estimated jointly and accurately reproduces a flat field measured through a diffuser. Because every standard camera model lifts to a radiometric one, the radiometric camera naturally and directly extends generative scene models beyond multi-view geometry to multi-view radiometric ones, where phenomena such as lighting and attenuation can be accurately estimated.
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -11181,7 +11181,7 @@
 - 2026-11-05, **REACT: Towards Real-Time Completion of Skeletal Motion Signals**, P. de Clermont Gallerande et.al., Paper: [@2611.08301](http://arxiv.org/abs/2611.08301)
 > **Abstract:** Tracking user motion in interactive and immersive applications is increasingly common (e.g., video games, XR systems, smartphones). Yet, processing and transmitting human motion data remain critical challenges, as current approaches strongly rely on the quality of the tracked motion signals. In general, affordable motion-capture systems may produce unnatural animations in the presence of calibration errors, occlusions, sensor drift, high-frequency noise, or other artifacts. More specifically, we simulate occlusions and high-frequency noise and propose to mitigate their effects with REACT, an interactive online motion-completion framework operating causally, frame by frame, without look-ahead. REACT is an S4-based autoregressive model that coordinates complementary motion estimates under specific reliability-dependent constraints and exposes several interpretable internal signals. We present a system-level contribution consisting of a structured formulation of interactive motion completion together with a coherent instantiation of this formulation. We evaluate REACT against several causal baselines and architectural variants under varying levels of occlusion severity, and report their respective inference latencies. Our results show that REACT achieves a relevant compromise between reconstruction accuracy, update smoothness, and interactive inference. Finally, we characterize how its fusion behaviour changes under missing input observations.
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

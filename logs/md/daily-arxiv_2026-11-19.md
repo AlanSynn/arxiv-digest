@@ -3,20 +3,20 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.21
+## 📚 Updated on 2026.11.22
 
 <details open>
-<summary>📑 Table of Contents — 2026-11-21</summary>
+<summary>📑 Table of Contents — 2026-11-22</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (20)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (19)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (37)
 - [World Models & Generative Video](#world-models--generative-video) (38)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (5)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (25)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (25)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (9)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (8)
 - [Narrative & Long-form Audio](#narrative--long-form-audio) (2)
 
 </details>
@@ -49,7 +49,7 @@
 |**2026-11-07**|**MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification**|Jiaju Ma et.al.|[@2611.10592](http://arxiv.org/abs/2611.10592)|null|
 |**2026-11-06**|**Improving the Diffusability of Motion Tokenizer**|Guanhe Huang et.al.|[@2611.10160](http://arxiv.org/abs/2611.10160)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -93,7 +93,7 @@
 |**2026-11-19**|**Goal-Guided Reinforcement Learning via Fine-Tuning Vision-Language Models**|Yajie Qi et.al.|[@2611.25742](http://arxiv.org/abs/2611.25742)|null|
 |**2026-11-19**|**DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding**|Jiaming Liu et.al.|[@2611.25722](http://arxiv.org/abs/2611.25722)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -138,7 +138,7 @@
 |**2026-11-18**|**Identity World Model: Recognizing People in an Imagined Latent World**|Dingqiang Ye et.al.|[@2611.25204](http://arxiv.org/abs/2611.25204)|null|
 |**2026-11-18**|**GEMS: Generation and Experience Memory for Subgoal-Guided Long-Horizon World Model Planning**|Yangchen Zhao et.al.|[@2611.25134](http://arxiv.org/abs/2611.25134)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -151,7 +151,7 @@
 |**2026-11-09**|**Design of a hybrid tendon-linkage finger with coupled and adaptive motion**|Hyojae Kang et.al.|[@2611.11885](http://arxiv.org/abs/2611.11885)|null|
 |**2026-11-06**|**Segmenting Geometric Textures of 3D Meshes**|Weidan Xiong et.al.|[@2611.08897](http://arxiv.org/abs/2611.08897)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -164,7 +164,7 @@
 |**2026-11-09**|**Co-Creating Neurorehabilitation Technology Alongside Lived Experience Experts: A Participatory Design Workshop**|Irene L. Y. Beck et.al.|[@2611.12202](http://arxiv.org/abs/2611.12202)|null|
 |**2026-11-08**|**From Sketch to Design: A Cross-scale Workflow for Procedural Generative Urban Design**|Jin Gao et.al.|[@2611.11561](http://arxiv.org/abs/2611.11561)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -196,7 +196,7 @@
 |**2026-11-17**|**CueSplat: Learning to Schedule Sparse Deformation for Dynamic Gaussian Splatting on Edge Devices**|Qingyuan Tang et.al.|[@2611.22095](http://arxiv.org/abs/2611.22095)|null|
 |**2026-11-16**|**FaceRiff: Data-Efficient Unified Text-to-3D Face Asset Synthesis via Geometric Conditioning**|Elly Akhoundi et.al.|[@2611.21867](http://arxiv.org/abs/2611.21867)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -228,7 +228,7 @@
 |**2026-11-12**|**EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming**|Yaru Niu et.al.|[@2611.16728](http://arxiv.org/abs/2611.16728)|null|
 |**2026-11-11**|**MiniPose: Miniature-Based Real Data Collection for 6D Pose Estimation of Large Industrial Pipe Segments**|Hyunjun Kim et.al.|[@2611.15066](http://arxiv.org/abs/2611.15066)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -244,7 +244,7 @@
 |**2026-11-08**|**SoftPAT3D: Physics-Augmented Text-to-3D Scene Generation with Deformables**|Lei Shu et.al.|[@2611.11087](http://arxiv.org/abs/2611.11087)|null|
 |**2026-11-07**|**ZARA: Zero-shot Animatable and Relightable 3D Avatar reconstruction from a single image**|Yixiao Chen et.al.|[@2611.10562](http://arxiv.org/abs/2611.10562)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -253,7 +253,7 @@
 |**2026-11-17**|**High-Fidelity Binarized Neural Vocoder**|Andong Li et.al.|[@2611.22593](http://arxiv.org/abs/2611.22593)|null|
 |**2026-11-09**|**SCLAP: Temporal structural alignment improves localization in long-form audio**|Yacouba Kaloga et.al.|[@2611.12124](http://arxiv.org/abs/2611.12124)|null|
 
-<p align=right>(<a href=#updated-on-20261121>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261122>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

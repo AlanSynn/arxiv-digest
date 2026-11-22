@@ -163,5 +163,3 @@
 | 2026-11-08 | **InfCoiL: Coordinated Planner-Controller Learning for Closed-Loop Physics-Based Human-Object Interaction** | Character Motion Synthesis & Animation | 0.33 | character animation | [@2611.11517](http://arxiv.org/abs/2611.11517) | null |
 | 2026-11-08 | **From Sketch to Design: A Cross-scale Workflow for Procedural Generative Urban Design** | Sketch-based & Creative HCI Tools | 0.33 | design tool | [@2611.11561](http://arxiv.org/abs/2611.11561) | null |
 | 2026-11-08 | **SoftPAT3D: Physics-Augmented Text-to-3D Scene Generation with Deformables** | Neural Rendering & Physics Simulation | 0.33 | deformable simulation | [@2611.11087](http://arxiv.org/abs/2611.11087) | null |
-| 2026-11-07 | **ZARA: Zero-shot Animatable and Relightable 3D Avatar reconstruction from a single image** | Neural Rendering & Physics Simulation | 1.00 | relightable | [@2611.10562](http://arxiv.org/abs/2611.10562) | null |
-| 2026-11-07 | **MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification** | Character Motion Synthesis & Animation | 0.83 | motion generation | [@2611.10592](http://arxiv.org/abs/2611.10592) | null |
