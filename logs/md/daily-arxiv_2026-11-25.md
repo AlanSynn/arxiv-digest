@@ -3,20 +3,20 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.26
+## 📚 Updated on 2026.11.27
 
 <details open>
-<summary>📑 Table of Contents — 2026-11-26</summary>
+<summary>📑 Table of Contents — 2026-11-27</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (35)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (34)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (39)
 - [World Models & Generative Video](#world-models--generative-video) (39)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (5)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (27)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (31)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (14)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (13)
 - [Narrative & Long-form Audio](#narrative--long-form-audio) (3)
 
 </details>
@@ -63,7 +63,7 @@
 |**2026-11-14**|**ImpedanceMimic: Learned Impedance as Action Space for Force-Accurate Motion Imitation**|Matthias Jammot et.al.|[@2611.19153](http://arxiv.org/abs/2611.19153)|null|
 |**2026-11-12**|**Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors**|Hao Li et.al.|[@2611.17060](http://arxiv.org/abs/2611.17060)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -109,7 +109,7 @@
 |**2026-11-25**|**DataForgeVLA: Fully Synthetic Manipulation Demonstrations for Vision-Language-Action Training**|Sergei Kurchev et.al.|[@2611.34287](http://arxiv.org/abs/2611.34287)|null|
 |**2026-11-25**|**Escapingthe instruction blackhole of vision-language-action policies via optimal-transport wormholes**|Xuetao Li et.al.|[@2611.34280](http://arxiv.org/abs/2611.34280)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -123,7 +123,7 @@
 |**2026-11-25**|**Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models**|Dezhi Luo et.al.|[@2611.34813](http://arxiv.org/abs/2611.34813)|null|
 |**2026-11-25**|**Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models**|Ajmain Istiak Apon et.al.|[@2611.34739](http://arxiv.org/abs/2611.34739)|null|
 |**2026-11-25**|**WorldInteract: Controllable Streaming Video Generation for Multi-Material Interactions**|Ahmed Hatem et.al.|[@2611.34730](http://arxiv.org/abs/2611.34730)|null|
-|**2026-11-25**|**ShowNow: Fine-Grained Speculative Streaming for Responsive World Models**|Yiren Song et.al.|[@2611.34693](http://arxiv.org/abs/2611.34693)|null|
+|**2026-11-25**|**ShowNow: Fine-Grained Speculative Streaming for Responsive World Models**|Yiren Song et.al.|[@2611.34693](http://arxiv.org/abs/2611.34693)|**[link](https://github.com/showlab/ShowNow)**|
 |**2026-11-25**|**Neural Rendering Compiler: Generative Video Models as Programmable Renderers**|Yuxia Zhu et.al.|[@2611.34680](http://arxiv.org/abs/2611.34680)|null|
 |**2026-11-25**|**Do We Still Need Reinforcement Learning When We Can Read the World Model?**|Mingchao Zhang et.al.|[@2611.34656](http://arxiv.org/abs/2611.34656)|null|
 |**2026-11-25**|**Beyond Pose Control: Anatomically Consistent Ultrasound Video Generation**|Yue Zhou et.al.|[@2611.34622](http://arxiv.org/abs/2611.34622)|null|
@@ -155,7 +155,7 @@
 |**2026-11-24**|**Playfulness as Feedback for Agentic Game Development**|Weijia Mao et.al.|[@2611.33457](http://arxiv.org/abs/2611.33457)|null|
 |**2026-11-24**|**DreamTour: Layout Steering for Training-Free World Exploration**|Srikumar Sastry et.al.|[@2611.33378](http://arxiv.org/abs/2611.33378)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -167,7 +167,7 @@
 |**2026-11-21**|**Doing More with Less: Complex Manipulation with a Contact-Adaptive Robotic Hand**|Hyung Gon Shin et.al.|[@2611.28675](http://arxiv.org/abs/2611.28675)|null|
 |**2026-11-19**|**A Tutorial on Complementarity-Based Contact Models for Robotics**|Onur Beker et.al.|[@2611.26600](http://arxiv.org/abs/2611.26600)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -180,7 +180,7 @@
 |**2026-11-15**|**Dynamics of Collective Diversity in Human-AI Co-Creation for Creative Tasks**|Manh Hung Nguyen et.al.|[@2611.33192](http://arxiv.org/abs/2611.33192)|null|
 |**2026-11-13**|**DesignSpecs: A DESIGN.md Dataset of Visual Design Specifications for AI Agents**|Jialiang Wei et.al.|[@2611.17713](http://arxiv.org/abs/2611.17713)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -214,7 +214,7 @@
 |**2026-11-24**|**X-3DComposer: Feed-Forward 3D Scene Composition with Any Assets from Any Views**|Zidian Qiu et.al.|[@2611.32491](http://arxiv.org/abs/2611.32491)|null|
 |**2026-11-24**|**A Mesh to Remember: Persistent Appearance for Interactive Video Worlds**|Joonghyuk Shin et.al.|[@2611.32445](http://arxiv.org/abs/2611.32445)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -252,7 +252,7 @@
 |**2026-11-19**|**A$^2$-VLA: Adapting Vision-Language-Action Policies to New Tools through Agentic Affordance Discovery**|Chenyuan Zhou et.al.|[@2611.25656](http://arxiv.org/abs/2611.25656)|null|
 |**2026-11-18**|**WEVO: World Model-Enabled VLA Optimization for Whole-Body Loco-Manipulation**|Qianzhong Chen et.al.|[@2611.25251](http://arxiv.org/abs/2611.25251)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -273,7 +273,7 @@
 |**2026-11-18**|**Beyond Appearance: Evidence-Guided Programmatic 3D Scene Reconstruction with Agentic Lighting Reasoning**|Zeting Luo et.al.|[@2611.24565](http://arxiv.org/abs/2611.24565)|null|
 |**2026-11-12**|**Learning the Missing Derivative: Neural Multiple-Scattering Operators for Inverse Volume Rendering**|Sipeng Chen et.al.|[@2611.16650](http://arxiv.org/abs/2611.16650)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -283,7 +283,7 @@
 |**2026-11-23**|**LiveAudio: From Bidirectional to Autoregressive Diffusion for Real-Time Streaming Video-to-Audio Generation**|Yuxuan Jiang et.al.|[@2611.30714](http://arxiv.org/abs/2611.30714)|null|
 |**2026-11-17**|**High-Fidelity Binarized Neural Vocoder**|Andong Li et.al.|[@2611.22593](http://arxiv.org/abs/2611.22593)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors

@@ -3,20 +3,20 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## 📚 Updated on 2026.11.26
+## 📚 Updated on 2026.11.27
 
 <details open>
-<summary>📑 Table of Contents — 2026-11-26</summary>
+<summary>📑 Table of Contents — 2026-11-27</summary>
 
 **By category**
-- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (35)
+- [Character Motion Synthesis & Animation](#character-motion-synthesis--animation) (34)
 - [Vision-Language & Action Models (VLA/VLM)](#vision-language--action-models-vlavlm) (39)
 - [World Models & Generative Video](#world-models--generative-video) (39)
 - [Computational Design, Mechanism & Fabrication](#computational-design-mechanism--fabrication) (5)
 - [Sketch-based & Creative HCI Tools](#sketch-based--creative-hci-tools) (6)
 - [3D Understanding: Reconstruction & Generation](#3d-understanding-reconstruction--generation) (27)
 - [Embodied AI & Robot Learning](#embodied-ai--robot-learning) (31)
-- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (14)
+- [Neural Rendering & Physics Simulation](#neural-rendering--physics-simulation) (13)
 - [Narrative & Long-form Audio](#narrative--long-form-audio) (3)
 
 </details>
@@ -256,7 +256,7 @@
 |**2026-11-25**|**MotionODE: Enhancing Autoregressive Text-to-Motion Generation with Continuous-Depth Modeling**|Zhaoxin Fan et.al.|[@2611.33826](http://arxiv.org/abs/2611.33826)|null|
 |**2026-11-25**|**MMotion: Collaborative Cross-Scale Memory for Text-to-Motion Generation**|Zhaoxin Fan et.al.|[@2611.33819](http://arxiv.org/abs/2611.33819)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Computational Design, Mechanism & Fabrication
 
@@ -302,7 +302,7 @@
 |**2026-11-21**|**Doing More with Less: Complex Manipulation with a Contact-Adaptive Robotic Hand**|Hyung Gon Shin et.al.|[@2611.28675](http://arxiv.org/abs/2611.28675)|null|
 |**2026-11-25**|**CoTAMP: Cooperative Task and Motion Planning for Quadruped Robots with Large Language Models**|Woojin Kim et.al.|[@2611.33911](http://arxiv.org/abs/2611.33911)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Sketch-based & Creative HCI Tools
 
@@ -378,7 +378,7 @@
 |**2026-11-24**|**Found in Translation: Five Entry Points to Translate AI Literacy Frameworks in the Design of Educational Materials**|Luis Morales-Navarro et.al.|[@2611.32377](http://arxiv.org/abs/2611.32377)|null|
 |**2026-11-15**|**Dynamics of Collective Diversity in Human-AI Co-Creation for Creative Tasks**|Manh Hung Nguyen et.al.|[@2611.33192](http://arxiv.org/abs/2611.33192)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Vision-Language & Action Models (VLA/VLM)
 
@@ -2944,7 +2944,7 @@
 |**2026-11-25**|**DataForgeVLA: Fully Synthetic Manipulation Demonstrations for Vision-Language-Action Training**|Sergei Kurchev et.al.|[@2611.34287](http://arxiv.org/abs/2611.34287)|null|
 |**2026-11-25**|**Escapingthe instruction blackhole of vision-language-action policies via optimal-transport wormholes**|Xuetao Li et.al.|[@2611.34280](http://arxiv.org/abs/2611.34280)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## World Models & Generative Video
 
@@ -4428,7 +4428,7 @@
 |**2026-11-25**|**Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models**|Dezhi Luo et.al.|[@2611.34813](http://arxiv.org/abs/2611.34813)|null|
 |**2026-11-25**|**Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models**|Ajmain Istiak Apon et.al.|[@2611.34739](http://arxiv.org/abs/2611.34739)|null|
 |**2026-11-25**|**WorldInteract: Controllable Streaming Video Generation for Multi-Material Interactions**|Ahmed Hatem et.al.|[@2611.34730](http://arxiv.org/abs/2611.34730)|null|
-|**2026-11-25**|**ShowNow: Fine-Grained Speculative Streaming for Responsive World Models**|Yiren Song et.al.|[@2611.34693](http://arxiv.org/abs/2611.34693)|null|
+|**2026-11-25**|**ShowNow: Fine-Grained Speculative Streaming for Responsive World Models**|Yiren Song et.al.|[@2611.34693](http://arxiv.org/abs/2611.34693)|**[link](https://github.com/showlab/ShowNow)**|
 |**2026-11-25**|**Neural Rendering Compiler: Generative Video Models as Programmable Renderers**|Yuxia Zhu et.al.|[@2611.34680](http://arxiv.org/abs/2611.34680)|null|
 |**2026-11-25**|**Do We Still Need Reinforcement Learning When We Can Read the World Model?**|Mingchao Zhang et.al.|[@2611.34656](http://arxiv.org/abs/2611.34656)|null|
 |**2026-11-25**|**Beyond Pose Control: Anatomically Consistent Ultrasound Video Generation**|Yue Zhou et.al.|[@2611.34622](http://arxiv.org/abs/2611.34622)|null|
@@ -4460,7 +4460,7 @@
 |**2026-11-24**|**Playfulness as Feedback for Agentic Game Development**|Weijia Mao et.al.|[@2611.33457](http://arxiv.org/abs/2611.33457)|null|
 |**2026-11-24**|**DreamTour: Layout Steering for Training-Free World Exploration**|Srikumar Sastry et.al.|[@2611.33378](http://arxiv.org/abs/2611.33378)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## 3D Understanding: Reconstruction & Generation
 
@@ -5279,7 +5279,7 @@
 |**2026-11-25**|**ProPolar: Progressive Polar Decomposition for Implicit Neural Representations**|Pureum Kim et.al.|[@2611.33567](http://arxiv.org/abs/2611.33567)|null|
 |**2026-11-24**|**VersionGS: Compact and Motion-Robust Dynamic Gaussian Splatting via Versioned Gaussians**|Shihang Wei et.al.|[@2611.33374](http://arxiv.org/abs/2611.33374)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Embodied AI & Robot Learning
 
@@ -5852,7 +5852,7 @@
 |**2026-11-25**|**Distractor-Robust Reinforcement Learning via Variational Bisimulation**|Benjamin Freed et.al.|[@2611.34641](http://arxiv.org/abs/2611.34641)|null|
 |**2026-11-24**|**A 3D Simulator for Passive SPAD Imaging**|Elia Mergaert et.al.|[@2611.33498](http://arxiv.org/abs/2611.33498)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Narrative & Long-form Audio
 
@@ -5907,7 +5907,7 @@
 |**2026-11-23**|**LiveAudio: From Bidirectional to Autoregressive Diffusion for Real-Time Streaming Video-to-Audio Generation**|Yuxuan Jiang et.al.|[@2611.30714](http://arxiv.org/abs/2611.30714)|null|
 |**2026-11-25**|**Investigation of generalization to unseen audio generation models in audio--text semantic-alignment score prediction**|Yuki Okamoto et.al.|[@2611.34626](http://arxiv.org/abs/2611.34626)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Neural Rendering & Physics Simulation
 
@@ -6025,7 +6025,7 @@
 |**2026-11-24**|**SplatWAM: Splatting World Action Models for Real-Time 3D Imagination**|Frank Tsu-Fang Lu et.al.|[@2611.33467](http://arxiv.org/abs/2611.33467)|null|
 |**2026-11-24**|**OrdiHand-GS: Ordinal-Guided Tracking and Hand-Refined Gaussian Avatars for Digital Signers**|Mingxuan Ma et.al.|[@2611.33465](http://arxiv.org/abs/2611.33465)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 ## Motion Authoring, Editing & Retargeting
 
@@ -6045,7 +6045,7 @@
 |**2026-10-28**|**Decompose, Don't Expand: Capability-Independent AI Systems by Construction**|Tejaswi Gowda et.al.|[@2610.38144](http://arxiv.org/abs/2610.38144)|null|
 |**2026-11-05**|**REACT: Towards Real-Time Completion of Skeletal Motion Signals**|P. de Clermont Gallerande et.al.|[@2611.08301](http://arxiv.org/abs/2611.08301)|null|
 
-<p align=right>(<a href=#updated-on-20261126>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20261127>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/AlanSynn/arxiv-digest.svg?style=for-the-badge
 [contributors-url]: https://github.com/AlanSynn/arxiv-digest/graphs/contributors
